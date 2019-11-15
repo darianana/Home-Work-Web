@@ -1,0 +1,11 @@
+C:\Users\karpe\Desktop\Web\String\String\bin\Debug\netcoreapp3.0\String.exe
+C:\Users\karpe\Desktop\Web\String\String\bin\Debug\netcoreapp3.0\String.deps.json
+C:\Users\karpe\Desktop\Web\String\String\bin\Debug\netcoreapp3.0\String.runtimeconfig.json
+C:\Users\karpe\Desktop\Web\String\String\bin\Debug\netcoreapp3.0\String.runtimeconfig.dev.json
+C:\Users\karpe\Desktop\Web\String\String\bin\Debug\netcoreapp3.0\String.dll
+C:\Users\karpe\Desktop\Web\String\String\bin\Debug\netcoreapp3.0\String.pdb
+C:\Users\karpe\Desktop\Web\String\String\obj\Debug\netcoreapp3.0\String.AssemblyInfoInputs.cache
+C:\Users\karpe\Desktop\Web\String\String\obj\Debug\netcoreapp3.0\String.AssemblyInfo.cs
+C:\Users\karpe\Desktop\Web\String\String\obj\Debug\netcoreapp3.0\String.dll
+C:\Users\karpe\Desktop\Web\String\String\obj\Debug\netcoreapp3.0\String.pdb
+C:\Users\karpe\Desktop\Web\String\String\obj\Debug\netcoreapp3.0\String.csprojAssemblyReference.cache

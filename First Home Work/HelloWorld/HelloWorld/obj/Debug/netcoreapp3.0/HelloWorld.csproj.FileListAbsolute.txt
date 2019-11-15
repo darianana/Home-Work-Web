@@ -1,0 +1,11 @@
+C:\Users\karpe\source\repos\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.0\HelloWorld.exe
+C:\Users\karpe\source\repos\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.0\HelloWorld.deps.json
+C:\Users\karpe\source\repos\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.0\HelloWorld.runtimeconfig.json
+C:\Users\karpe\source\repos\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.0\HelloWorld.runtimeconfig.dev.json
+C:\Users\karpe\source\repos\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.0\HelloWorld.dll
+C:\Users\karpe\source\repos\HelloWorld\HelloWorld\bin\Debug\netcoreapp3.0\HelloWorld.pdb
+C:\Users\karpe\source\repos\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.0\HelloWorld.csprojAssemblyReference.cache
+C:\Users\karpe\source\repos\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.0\HelloWorld.AssemblyInfoInputs.cache
+C:\Users\karpe\source\repos\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.0\HelloWorld.AssemblyInfo.cs
+C:\Users\karpe\source\repos\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.0\HelloWorld.dll
+C:\Users\karpe\source\repos\HelloWorld\HelloWorld\obj\Debug\netcoreapp3.0\HelloWorld.pdb

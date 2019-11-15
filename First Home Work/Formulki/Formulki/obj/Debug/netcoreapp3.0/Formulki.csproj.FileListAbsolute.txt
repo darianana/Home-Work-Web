@@ -1,0 +1,11 @@
+C:\Users\karpe\Desktop\Web\Formulki\Formulki\bin\Debug\netcoreapp3.0\Formulki.exe
+C:\Users\karpe\Desktop\Web\Formulki\Formulki\bin\Debug\netcoreapp3.0\Formulki.deps.json
+C:\Users\karpe\Desktop\Web\Formulki\Formulki\bin\Debug\netcoreapp3.0\Formulki.runtimeconfig.json
+C:\Users\karpe\Desktop\Web\Formulki\Formulki\bin\Debug\netcoreapp3.0\Formulki.runtimeconfig.dev.json
+C:\Users\karpe\Desktop\Web\Formulki\Formulki\bin\Debug\netcoreapp3.0\Formulki.dll
+C:\Users\karpe\Desktop\Web\Formulki\Formulki\bin\Debug\netcoreapp3.0\Formulki.pdb
+C:\Users\karpe\Desktop\Web\Formulki\Formulki\obj\Debug\netcoreapp3.0\Formulki.csprojAssemblyReference.cache
+C:\Users\karpe\Desktop\Web\Formulki\Formulki\obj\Debug\netcoreapp3.0\Formulki.AssemblyInfoInputs.cache
+C:\Users\karpe\Desktop\Web\Formulki\Formulki\obj\Debug\netcoreapp3.0\Formulki.AssemblyInfo.cs
+C:\Users\karpe\Desktop\Web\Formulki\Formulki\obj\Debug\netcoreapp3.0\Formulki.dll
+C:\Users\karpe\Desktop\Web\Formulki\Formulki\obj\Debug\netcoreapp3.0\Formulki.pdb
