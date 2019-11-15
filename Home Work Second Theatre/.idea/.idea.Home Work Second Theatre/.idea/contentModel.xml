@@ -26,6 +26,8 @@
         </e>
         <e p="Staging.cs" t="Include" />
         <e p="StangingWork.cs" t="Include" />
+        <e p="Ticket.cs" t="Include" />
+        <e p="TicketWork.cs" t="Include" />
         <e p="Work Theatre.csproj" t="IncludeRecursive" />
       </e>
     </e>

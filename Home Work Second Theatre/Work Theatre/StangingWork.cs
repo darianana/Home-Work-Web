@@ -14,7 +14,7 @@ namespace Work_Theatre
                 stagings.Add(new Staging(name, director, type));
                 return;
             }
-            Console.WriteLine("Sorry, you  wrote the wrong type");
+            Console.WriteLine("Sorry, you wrote the wrong type");
         }
         
         public static int FindId(string name)
