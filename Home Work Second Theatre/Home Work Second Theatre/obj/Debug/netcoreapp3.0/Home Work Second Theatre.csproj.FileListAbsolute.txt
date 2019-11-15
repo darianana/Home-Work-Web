@@ -1,0 +1,28 @@
+C:\Users\karpe\Desktop\Web\Home Work Second Theatre\Home Work Second Theatre\bin\Debug\netcoreapp3.0\Home Work Second Theatre.exe
+C:\Users\karpe\Desktop\Web\Home Work Second Theatre\Home Work Second Theatre\bin\Debug\netcoreapp3.0\Home Work Second Theatre.deps.json
+C:\Users\karpe\Desktop\Web\Home Work Second Theatre\Home Work Second Theatre\bin\Debug\netcoreapp3.0\Home Work Second Theatre.runtimeconfig.json
+C:\Users\karpe\Desktop\Web\Home Work Second Theatre\Home Work Second Theatre\bin\Debug\netcoreapp3.0\Home Work Second Theatre.runtimeconfig.dev.json
+C:\Users\karpe\Desktop\Web\Home Work Second Theatre\Home Work Second Theatre\bin\Debug\netcoreapp3.0\Home Work Second Theatre.dll
+C:\Users\karpe\Desktop\Web\Home Work Second Theatre\Home Work Second Theatre\bin\Debug\netcoreapp3.0\Home Work Second Theatre.pdb
+C:\Users\karpe\Desktop\Web\Home Work Second Theatre\Home Work Second Theatre\bin\Debug\netcoreapp3.0\Work_Theatre.dll
+C:\Users\karpe\Desktop\Web\Home Work Second Theatre\Home Work Second Theatre\bin\Debug\netcoreapp3.0\Work_Theatre.pdb
+C:\Users\karpe\Desktop\Web\Home Work Second Theatre\Home Work Second Theatre\obj\Debug\netcoreapp3.0\Home Work Second Theatre.csprojAssemblyReference.cache
+C:\Users\karpe\Desktop\Web\Home Work Second Theatre\Home Work Second Theatre\obj\Debug\netcoreapp3.0\Home Work Second Theatre.AssemblyInfoInputs.cache
+C:\Users\karpe\Desktop\Web\Home Work Second Theatre\Home Work Second Theatre\obj\Debug\netcoreapp3.0\Home Work Second Theatre.AssemblyInfo.cs
+C:\Users\karpe\Desktop\Web\Home Work Second Theatre\Home Work Second Theatre\obj\Debug\netcoreapp3.0\Home Work Second Theatre.csproj.CopyComplete
+C:\Users\karpe\Desktop\Web\Home Work Second Theatre\Home Work Second Theatre\obj\Debug\netcoreapp3.0\Home Work Second Theatre.dll
+C:\Users\karpe\Desktop\Web\Home Work Second Theatre\Home Work Second Theatre\obj\Debug\netcoreapp3.0\Home Work Second Theatre.pdb
+C:\Users\karpe\Desktop\Home Work Web\Home-Work-Web\Home Work Second Theatre\Home Work Second Theatre\bin\Debug\netcoreapp3.0\Home Work Second Theatre.exe
+C:\Users\karpe\Desktop\Home Work Web\Home-Work-Web\Home Work Second Theatre\Home Work Second Theatre\bin\Debug\netcoreapp3.0\Home Work Second Theatre.deps.json
+C:\Users\karpe\Desktop\Home Work Web\Home-Work-Web\Home Work Second Theatre\Home Work Second Theatre\bin\Debug\netcoreapp3.0\Home Work Second Theatre.runtimeconfig.json
+C:\Users\karpe\Desktop\Home Work Web\Home-Work-Web\Home Work Second Theatre\Home Work Second Theatre\bin\Debug\netcoreapp3.0\Home Work Second Theatre.runtimeconfig.dev.json
+C:\Users\karpe\Desktop\Home Work Web\Home-Work-Web\Home Work Second Theatre\Home Work Second Theatre\bin\Debug\netcoreapp3.0\Home Work Second Theatre.dll
+C:\Users\karpe\Desktop\Home Work Web\Home-Work-Web\Home Work Second Theatre\Home Work Second Theatre\bin\Debug\netcoreapp3.0\Home Work Second Theatre.pdb
+C:\Users\karpe\Desktop\Home Work Web\Home-Work-Web\Home Work Second Theatre\Home Work Second Theatre\bin\Debug\netcoreapp3.0\Work_Theatre.dll
+C:\Users\karpe\Desktop\Home Work Web\Home-Work-Web\Home Work Second Theatre\Home Work Second Theatre\bin\Debug\netcoreapp3.0\Work_Theatre.pdb
+C:\Users\karpe\Desktop\Home Work Web\Home-Work-Web\Home Work Second Theatre\Home Work Second Theatre\obj\Debug\netcoreapp3.0\Home Work Second Theatre.csprojAssemblyReference.cache
+C:\Users\karpe\Desktop\Home Work Web\Home-Work-Web\Home Work Second Theatre\Home Work Second Theatre\obj\Debug\netcoreapp3.0\Home Work Second Theatre.AssemblyInfoInputs.cache
+C:\Users\karpe\Desktop\Home Work Web\Home-Work-Web\Home Work Second Theatre\Home Work Second Theatre\obj\Debug\netcoreapp3.0\Home Work Second Theatre.AssemblyInfo.cs
+C:\Users\karpe\Desktop\Home Work Web\Home-Work-Web\Home Work Second Theatre\Home Work Second Theatre\obj\Debug\netcoreapp3.0\Home Work Second Theatre.csproj.CopyComplete
+C:\Users\karpe\Desktop\Home Work Web\Home-Work-Web\Home Work Second Theatre\Home Work Second Theatre\obj\Debug\netcoreapp3.0\Home Work Second Theatre.dll
+C:\Users\karpe\Desktop\Home Work Web\Home-Work-Web\Home Work Second Theatre\Home Work Second Theatre\obj\Debug\netcoreapp3.0\Home Work Second Theatre.pdb

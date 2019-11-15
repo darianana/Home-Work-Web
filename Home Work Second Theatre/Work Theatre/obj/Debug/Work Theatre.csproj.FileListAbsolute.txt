@@ -1,0 +1,10 @@
+C:\Users\karpe\Desktop\Web\Home Work Second Theatre\Work Theatre\bin\Debug\Work_Theatre.dll
+C:\Users\karpe\Desktop\Web\Home Work Second Theatre\Work Theatre\bin\Debug\Work_Theatre.pdb
+C:\Users\karpe\Desktop\Web\Home Work Second Theatre\Work Theatre\obj\Debug\Work Theatre.csprojAssemblyReference.cache
+C:\Users\karpe\Desktop\Web\Home Work Second Theatre\Work Theatre\obj\Debug\Work_Theatre.dll
+C:\Users\karpe\Desktop\Web\Home Work Second Theatre\Work Theatre\obj\Debug\Work_Theatre.pdb
+C:\Users\karpe\Desktop\Home Work Web\Home-Work-Web\Home Work Second Theatre\Work Theatre\bin\Debug\Work_Theatre.dll
+C:\Users\karpe\Desktop\Home Work Web\Home-Work-Web\Home Work Second Theatre\Work Theatre\bin\Debug\Work_Theatre.pdb
+C:\Users\karpe\Desktop\Home Work Web\Home-Work-Web\Home Work Second Theatre\Work Theatre\obj\Debug\Work Theatre.csprojAssemblyReference.cache
+C:\Users\karpe\Desktop\Home Work Web\Home-Work-Web\Home Work Second Theatre\Work Theatre\obj\Debug\Work_Theatre.dll
+C:\Users\karpe\Desktop\Home Work Web\Home-Work-Web\Home Work Second Theatre\Work Theatre\obj\Debug\Work_Theatre.pdb

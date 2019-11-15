@@ -1,0 +1,33 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.0": {
+      "Home Work Second Theatre/1.0.0": {
+        "runtime": {
+          "Home Work Second Theatre.dll": {}
+        }
+      },
+      "Work Theatre/1.0.0": {
+        "runtime": {
+          "Work_Theatre.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Home Work Second Theatre/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Work Theatre/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
