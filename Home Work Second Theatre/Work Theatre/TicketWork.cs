@@ -41,7 +41,7 @@ namespace Work_Theatre
                                    $"Director {stagings[FindId(tickets[i].Name)].Type} is: {stagings[FindId(tickets[i].Name)].Director} \r\n" +
                                    $"Hall is: {tickets[i].Hall} \r\n" +
                                    $"Price is: {tickets[i].Price} \r\n" +
-                                   $"Date {stagings[FindId(tickets[i].Name)].Type} is: {tickets[i].Time}");
+                                   $"Date {stagings[FindId(tickets[i].Name)].Type} is: {tickets[i].Time}\r\n");
             }
         }
 

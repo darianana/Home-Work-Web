@@ -11,6 +11,14 @@
             VipName = name;
             Purchases = purchases;
             Sale = 5;
+            if (purchases > 5)
+            {
+                Sale = 10;
+            }
+            if (purchases > 10)
+            {
+                Sale = 15;
+            }
         }
     }
 }
