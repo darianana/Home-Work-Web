@@ -33,7 +33,8 @@ namespace Work_Theatre
             {
                 if (stagings[i].Type == type)
                 {
-                    Console.WriteLine( $"Name {stagings[i].Type} is: {stagings[i].StagingName} \r\nDirector {stagings[i].Type} is: {stagings[i].Director}");
+                    Console.WriteLine( $"Name {stagings[i].Type} is: {stagings[i].StagingName} \r\n" +
+                                       $"Director {stagings[i].Type} is: {stagings[i].Director}");
                 }
             }
         }

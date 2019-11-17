@@ -38,6 +38,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Cafeteria.cs" />
+    <Compile Include="CafeteriaWork.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Staging.cs" />
     <Compile Include="StangingWork.cs" />

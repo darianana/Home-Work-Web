@@ -7,10 +7,13 @@ namespace Home_Work_Second_Theatre
     {
         static void Main(string[] args)
         {
-            StangingWork.AddConcert("Gore ot uma", "Griboedov", "staging");
-            StangingWork.SortType("staging");
-            TicketWork.AddTicets("Gore ot uma", "big scene", "2019.12.12 18:30", 750);
-            TicketWork.ShowAll();
+           // StangingWork.AddConcert("Gore ot uma", "Griboedov", "staging");
+          //  StangingWork.SortType("staging");
+          //  TicketWork.AddTicets("Gore ot uma", "big scene", "2019.12.12 18:30", 750);
+           // TicketWork.ShowAll();
+            CafeteriaWork.AddProducts("Хлеб", 5, 50);
+            CafeteriaWork.AddProducts("Пироженное", 5, 250);
+            CafeteriaWork.ShowAllProducts();
         }
     }
 }
