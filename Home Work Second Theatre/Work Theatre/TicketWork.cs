@@ -45,14 +45,10 @@ namespace Work_Theatre
             }
         }
 
-        public static decimal SaleTicket(int quant, string name)
+        public static decimal SaleTicket(int quant, string name) // Возвращает сумму // если 0, то (Sorry, we have less free place than you need)
         {
             decimal result = 0;
-            if (quant > tickets[FindId(name)].FreePlace)
-            {
-                Console.Write($"Sorry, we have less free place than you need ");
-            }
-            else
+            if (quant < tickets[FindId(name)].FreePlace)
             {
                 result = quant * tickets[FindId(name)].Price;
                 tickets[FindId(name)].FreePlace -= quant;
