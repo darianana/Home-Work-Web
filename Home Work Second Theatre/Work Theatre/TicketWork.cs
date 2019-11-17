@@ -24,10 +24,16 @@ namespace Work_Theatre
 
         public static void Delete(string name)
         {
-            tickets.RemoveAt(FindId(name));
+            try
+            {
+                tickets.RemoveAt(FindId(name));
+            }
+            catch 
+            {
+                Console.Write("Sorry, couldn't delete the staging, maybe you're mistake in name, try again!");
+            }
         }
-
-        public static void ShowAll()
+        public static void ShowAll() // Выводит все билеты
         {
             for (int i = 0; i < stagings.Count; i++)
             {
@@ -37,6 +43,21 @@ namespace Work_Theatre
                                    $"Price is: {tickets[i].Price} \r\n" +
                                    $"Date {stagings[FindId(tickets[i].Name)].Type} is: {tickets[i].Time}");
             }
+        }
+
+        public static decimal SaleTicket(int quant, string name)
+        {
+            decimal result = 0;
+            if (quant > tickets[FindId(name)].FreePlace)
+            {
+                Console.Write($"Sorry, we have less free place than you need ");
+            }
+            else
+            {
+                result = quant * tickets[FindId(name)].Price;
+                tickets[FindId(name)].FreePlace -= quant;
+            }
+            return result;
         }
     }
 }
