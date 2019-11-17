@@ -55,5 +55,21 @@ namespace Work_Theatre
             }
             return result;
         }
+
+        public static decimal SaleTicket(int quant, string stname, string vipname) 
+        {
+            decimal result = 0;
+            if (VipWork.ThereIs(vipname))
+            {
+                if (quant < tickets[FindId(stname)].FreePlace)
+                {
+                    result = quant * tickets[FindId(stname)].Price;
+                    result -= (result / 100) * VipWork.SizeSale(vipname);
+                    tickets[FindId(stname)].FreePlace -= quant;
+                    VipWork.AddPurchases(vipname, quant);
+                }
+            }
+            return result;
+        }
     }
 }
