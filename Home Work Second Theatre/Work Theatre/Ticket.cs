@@ -6,11 +6,11 @@ namespace Work_Theatre
     {
         public string Name;
         public string Hall;
-        public string Time;
+        public DateTime Time;
         public decimal Price;
         public int FreePlace;
 
-        public Ticket(string name, string hall, string time, decimal price)
+        public Ticket(string name, string hall, DateTime time, decimal price)
         {
             Name = name;
             Hall = hall;

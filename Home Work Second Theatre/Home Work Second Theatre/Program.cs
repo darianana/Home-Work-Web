@@ -11,10 +11,11 @@ namespace Home_Work_Second_Theatre
           //  StangingWork.SortType("staging");
           //  TicketWork.AddTicets("Gore ot uma", "big scene", "2019.12.12 18:30", 750);
            // TicketWork.ShowAll();
+           
            CafeteriaWork.AddProducts("Сэндвич", 5, 50);
-            CafeteriaWork.AddProducts("Черепаха",25 ,250 );
+            CafeteriaWork.AddProducts("Пироженное черепаха",25 ,250 );
             CafeteriaWork.AddProducts("Тирамису", 22,300 );
-            CafeteriaWork.AddProducts("Медовик", 30,250 );
+            CafeteriaWork.AddProducts("Пироженное медовик", 30,250 );
             CafeteriaWork.AddProducts("Трубочка с заварным кремом",10 ,150 );
             CafeteriaWork.AddProducts("Трубочка с сырным кремом",12 , 150);
             CafeteriaWork.AddProducts("Красный Бархат", 15, 350);
@@ -50,20 +51,20 @@ namespace Home_Work_Second_Theatre
            VipWork.AddGuest("Оксана Скорик", 3);
            VipWork.AddGuest("Марко Юусела", 15);
             
-           TicketWork.AddTicets("Свадьба Фигаро", "small scene", "17.11.2019 19:00", 4700);
-           TicketWork.AddTicets("Свадьба Фигаро", "big scene", "10.12.2019 18:00", 1700);
-           TicketWork.AddTicets("Свадьба Фигаро", "small scene", "15.12.2019 18:00", 1700);
-           TicketWork.AddTicets("Свадьба Фигаро", "big scene", "22.12.2019 18:30", 1700);
+           TicketWork.AddTicets("Свадьба Фигаро", "small scene", 9, 11, 2019, 18,30, 4700);
+           TicketWork.AddTicets("Свадьба Фигаро", "big scene", 12, 12, 2019, 19,30, 1700);
+           TicketWork.AddTicets("Свадьба Фигаро", "small scene", 22, 11, 2019, 18,30, 1700);
+           TicketWork.AddTicets("Свадьба Фигаро", "big scene", 25, 12, 2019, 18,30, 1700);
            
-           TicketWork.AddTicets("Лебединое озеро", "small scene", "01.01.2020 12:00", 3500);
-           TicketWork.AddTicets("Лебединое озеро", "big scene", "05.12.2019 18:00", 1900);
-           TicketWork.AddTicets("Лебединое озеро", "small scene", "15.12.2019 18:00", 1700);
-           TicketWork.AddTicets("Лебединое озеро", "big scene", "22.12.2019 18:30", 1700);
+           TicketWork.AddTicets("Лебединое озеро", "small scene", 2, 11, 2019, 18,30, 3500);
+           TicketWork.AddTicets("Лебединое озеро", "big scene", 3, 11, 2019, 19,30, 1900);
+           TicketWork.AddTicets("Лебединое озеро", "small scene", 8, 12, 2019, 18,00, 1700);
+           TicketWork.AddTicets("Лебединое озеро", "big scene", 19, 12, 2019, 18,30, 1700);
            
-           TicketWork.AddTicets("Три маски короля", "small scene", "10.11.2019 19:00", 3700);
-           TicketWork.AddTicets("Три маски короля", "big scene", "31.12.2019 18:00", 1700);
-           TicketWork.AddTicets("Три маски короля", "small scene", "15.12.2019 18:00", 2500);
-           TicketWork.AddTicets("Три маски короля", "big scene", "22.12.2019 18:30", 1700);
+           TicketWork.AddTicets("Три маски короля", "small scene", 22, 11, 2019, 18,30, 3700);
+           TicketWork.AddTicets("Три маски короля", "big scene", 31, 12, 2019, 19,30, 1700);
+           TicketWork.AddTicets("Три маски короля", "small scene", 9, 11, 2019, 18,00, 2500);
+           TicketWork.AddTicets("Три маски короля", "big scene", 29, 12, 2019, 20,30, 1700);
            TicketWork.ShowAll();
         }
     }

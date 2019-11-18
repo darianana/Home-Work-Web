@@ -7,14 +7,15 @@ namespace Work_Theatre
     {
         public static List<Ticket> tickets = new List<Ticket>();
         
-        public static void AddTicets(string name, string hall, string time, decimal price) // Добавляет концерт
+        public static void AddTicets(string name, string hall, int day, int month, int year, int hour, int min, decimal price, int s = 0) // Добавляет концерт
         {
-            if (hall == "small scene" || hall == "big scene")
+            if ((hall == "small scene" || hall == "big scene") && (StangingWork.FindId(name) != -1))
             {
+                DateTime time = new DateTime(year, month, day, hour, min, s);
                 tickets.Add(new Ticket(name, hall, time, price));
                 return;
             }
-            Console.WriteLine("Sorry, you wrote the wrong hall");
+            Console.WriteLine("Sorry, you wrote the wrong hall or this staging is not added by director");
         }
         
         public static int FindId(string name)
@@ -52,6 +53,11 @@ namespace Work_Theatre
             {
                 result = quant * tickets[FindId(name)].Price;
                 tickets[FindId(name)].FreePlace -= quant;
+                
+                if (tickets[FindId(name)].FreePlace == 0)
+                {
+                    Delete(name);
+                }
             }
             return result;
         }
@@ -67,6 +73,11 @@ namespace Work_Theatre
                     result -= (result / 100) * VipWork.SizeSale(vipname);
                     tickets[FindId(stname)].FreePlace -= quant;
                     VipWork.AddPurchases(vipname, quant);
+                    
+                    if (tickets[FindId(stname)].FreePlace == 0)
+                    {
+                        Delete(stname);
+                    }
                 }
             }
             return result;
