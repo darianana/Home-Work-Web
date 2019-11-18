@@ -11,7 +11,39 @@ namespace Home_Work_Second_Theatre
           //  StangingWork.SortType("staging");
           //  TicketWork.AddTicets("Gore ot uma", "big scene", "2019.12.12 18:30", 750);
            // TicketWork.ShowAll();
-           
+
+           string role = "";
+           while (role != "Exit")
+           {
+               Console.Write("Choose your role:\r\n" +
+                             " 1. Worker\r\n" +
+                             "2. Visitor\r\n" +
+                             "3. Exit\r\n");
+               role = Console.ReadLine();
+               if (role == "Worker")
+               {
+                   string mode = "";
+                   while (mode != "Exit")
+                   {
+                       Console.Write("Choose your mode: \r\n" +
+                                     "1. Seller\r\n" +
+                                     "2. Director\r\n" +
+                                     "3. Barmaid\r\n");
+                       mode = Console.ReadLine();
+                       if (mode == "Seller")
+                       {
+                           Console.Write("What you need to do? (Choose number) \r\n" +
+                                         "1. Add new staging\r\n" +
+                                         "2. Sale ticket for VIP\r\n" +
+                                         "3. Sale ticket\r\n" +
+                                         "4. That's all\r\n");
+                           int action = 0;
+                           action = Convert.ToInt16(Console.ReadLine());
+                           
+                       }
+                   }
+               }
+           }
            CafeteriaWork.AddProducts("Сэндвич", 5, 50);
             CafeteriaWork.AddProducts("Пироженное черепаха",25 ,250 );
             CafeteriaWork.AddProducts("Тирамису", 22,300 );
