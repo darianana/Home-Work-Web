@@ -7,6 +7,7 @@ namespace Work_Theatre
     {
         public static List<Ticket> tickets = new List<Ticket>();
         
+        
         public static void AddTicets(string name, string hall, int day, int month, int year, int hour, int min, decimal price, int s = 0) // Добавляет концерт
         {
             if ((hall == "small scene" || hall == "big scene") && (StangingWork.FindId(name) != -1))
@@ -15,7 +16,7 @@ namespace Work_Theatre
                 tickets.Add(new Ticket(name, hall, time, price));
                 return;
             }
-            Console.WriteLine("Sorry, you wrote the wrong hall or this staging is not added by director");
+           Console.WriteLine("Sorry, you wrote wrong parameters, try again");
         }
         
         public static int FindId(string name)

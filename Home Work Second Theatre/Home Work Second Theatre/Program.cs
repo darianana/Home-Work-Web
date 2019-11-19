@@ -7,44 +7,11 @@ namespace Home_Work_Second_Theatre
     {
         static void Main(string[] args)
         {
-           // StangingWork.AddConcert("Gore ot uma", "Griboedov", "staging");
-          //  StangingWork.SortType("staging");
-          //  TicketWork.AddTicets("Gore ot uma", "big scene", "2019.12.12 18:30", 750);
-           // TicketWork.ShowAll();
-
-           string role = "";
-           while (role != "Exit")
-           {
-               Console.Write("Choose your role:\r\n" +
-                             " 1. Worker\r\n" +
-                             "2. Visitor\r\n" +
-                             "3. Exit\r\n");
-               role = Console.ReadLine();
-               if (role == "Worker")
-               {
-                   string mode = "";
-                   while (mode != "Exit")
-                   {
-                       Console.Write("Choose your mode: \r\n" +
-                                     "1. Seller\r\n" +
-                                     "2. Director\r\n" +
-                                     "3. Barmaid\r\n");
-                       mode = Console.ReadLine();
-                       if (mode == "Seller")
-                       {
-                           Console.Write("What you need to do? (Choose number) \r\n" +
-                                         "1. Add new staging\r\n" +
-                                         "2. Sale ticket for VIP\r\n" +
-                                         "3. Sale ticket\r\n" +
-                                         "4. That's all\r\n");
-                           int action = 0;
-                           action = Convert.ToInt16(Console.ReadLine());
-                           
-                       }
-                   }
-               }
-           }
-           CafeteriaWork.AddProducts("Сэндвич", 5, 50);
+               // StangingWork.AddConcert("Gore ot uma", "Griboedov", "staging");
+              //  StangingWork.SortType("staging");
+              //  TicketWork.AddTicets("Gore ot uma", "big scene", "2019.12.12 18:30", 750);
+               // TicketWork.ShowAll();
+            CafeteriaWork.AddProducts("Сэндвич", 5, 50);
             CafeteriaWork.AddProducts("Пироженное черепаха",25 ,250 );
             CafeteriaWork.AddProducts("Тирамису", 22,300 );
             CafeteriaWork.AddProducts("Пироженное медовик", 30,250 );
@@ -84,20 +51,88 @@ namespace Home_Work_Second_Theatre
            VipWork.AddGuest("Марко Юусела", 15);
             
            TicketWork.AddTicets("Свадьба Фигаро", "small scene", 9, 11, 2019, 18,30, 4700);
-           TicketWork.AddTicets("Свадьба Фигаро", "big scene", 12, 12, 2019, 19,30, 1700);
-           TicketWork.AddTicets("Свадьба Фигаро", "small scene", 22, 11, 2019, 18,30, 1700);
-           TicketWork.AddTicets("Свадьба Фигаро", "big scene", 25, 12, 2019, 18,30, 1700);
-           
            TicketWork.AddTicets("Лебединое озеро", "small scene", 2, 11, 2019, 18,30, 3500);
-           TicketWork.AddTicets("Лебединое озеро", "big scene", 3, 11, 2019, 19,30, 1900);
-           TicketWork.AddTicets("Лебединое озеро", "small scene", 8, 12, 2019, 18,00, 1700);
-           TicketWork.AddTicets("Лебединое озеро", "big scene", 19, 12, 2019, 18,30, 1700);
-           
            TicketWork.AddTicets("Три маски короля", "small scene", 22, 11, 2019, 18,30, 3700);
-           TicketWork.AddTicets("Три маски короля", "big scene", 31, 12, 2019, 19,30, 1700);
-           TicketWork.AddTicets("Три маски короля", "small scene", 9, 11, 2019, 18,00, 2500);
-           TicketWork.AddTicets("Три маски короля", "big scene", 29, 12, 2019, 20,30, 1700);
-           TicketWork.ShowAll();
+       
+           string role = "";
+               while (role != "Exit")
+               {
+                   Console.Write("Choose your role:\r\n" +
+                                 "1. Worker\r\n" +
+                                 "2. Visitor\r\n" +
+                                 "3. Exit\r\n" +
+                                 "\r\n");
+                   role = Console.ReadLine();
+                   if (role == "Worker")
+                   {
+                       string mode = "";
+                       while (mode != "Exit")
+                       {
+                           Console.Write("Choose your mode: \r\n" +
+                                         "1. Seller\r\n" +
+                                         "2. Director\r\n" +
+                                         "3. Barmaid\r\n");
+                           mode = Console.ReadLine();
+                           if (mode == "Seller")
+                           {
+                               int action = 0;
+                               while (action != 4)
+                               {
+                                   Console.Write("What you need to do? (Choose number) \r\n" +
+                                                 "1. Add new staging\r\n" +
+                                                 "2. Sale ticket for VIP\r\n" +
+                                                 "3. Sale ticket\r\n" +
+                                                 "4. That's all\r\n");
+                                   action = Convert.ToInt16(Console.ReadLine());
+                                   if (action == 1)
+                                   {
+                                       Console.Write("Input staging name:\r\n"); //ДОБАВИТЬ ПРОВЕРКИ
+                                       string staging_name = Console.ReadLine();
+                                       Console.Write("Input type hall (big scene or small):\r\n");
+                                       string hall_type = Console.ReadLine();
+                                       Console.Write("Input data dd mm yy:\r\n");
+                                       int dd = Convert.ToInt16(Console.ReadLine());
+                                       int mm = Convert.ToInt16(Console.ReadLine());
+                                       int yy = Convert.ToInt16(Console.ReadLine());
+                                       Console.Write("Input input data time hh mm:\r\n");
+                                       int hh = Convert.ToInt16(Console.ReadLine());
+                                       int mi = Convert.ToInt16(Console.ReadLine());
+                                       Console.Write("Input price:");
+                                       decimal prise = Convert.ToDecimal(Console.ReadLine());
+                                       TicketWork.AddTicets(staging_name, hall_type, dd, mm, yy, hh, mi, prise);
+                                   }
+    
+                                   else if (action == 2) // ДОБАВИТь ПРОВЕРКИ
+                                   {
+                                       Console.Write("Ask customer his or her name, and input:\r\n");
+                                       string vip = Console.ReadLine();
+                                       Console.Write("Name staging:\r\n");
+                                       string name = Console.ReadLine();
+                                       Console.Write("Quantity ticket:\r\n");
+                                       int quan = Convert.ToInt16(Console.ReadLine());
+                                       decimal price = TicketWork.SaleTicket(quan, name, vip);
+                                       Console.Write($"Your purchase amount amounted to: {price}P.\r\n");
+                                   }
+
+                                   else if (action == 3)
+                                   {
+                                       Console.Write("Name staging:\r\n");
+                                       string name = Console.ReadLine();
+                                       Console.Write("Quantity ticket:\r\n");
+                                       int quan = Convert.ToInt16(Console.ReadLine());
+                                       decimal price = TicketWork.SaleTicket(quan, name);
+                                       Console.Write($"Your purchase amount amounted to: {price}P.\r\n");
+                                   }
+                                   else if(action == 4)
+                                   {
+                                       Console.Write("Goodbye!\r\n");
+                                   }
+                               }
+                           }
+                       }
+                   }
+           } 
+           
         }
     }
 }
