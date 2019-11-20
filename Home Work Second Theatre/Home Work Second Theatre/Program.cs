@@ -154,8 +154,8 @@ namespace Home_Work_Second_Theatre
                                string password = Console.ReadLine();
                                if (DirectorWork.IsDirector(login))
                                {
-                                   int action = 0;
-                                   while (action != 6)
+                                   string action = "0";
+                                   while (action != "6")
                                    {
                                        Console.Write("What you need to do? (Choose number)\r\n" +
                                                      "1. Add some staging.\r\n" +
@@ -164,10 +164,9 @@ namespace Home_Work_Second_Theatre
                                                      "4. Add VIP guest.\r\n" +
                                                      "5. Delete some staging.\r\n" +
                                                      "6. That's all. \r\r");
-                                       action = Convert.ToInt16(Console.ReadLine());
-                                       if (action == 1)
+                                       action = Console.ReadLine();
+                                       if (action == "1")
                                        {
-                                           //AddConcert(string name, string director, string type)
                                            Console.Write("Input staging name:\r\n");
                                            string staging_name = Console.ReadLine();
                                            Console.Write("Input staging director:\r\n");
@@ -178,14 +177,14 @@ namespace Home_Work_Second_Theatre
                                            Console.Write("Success!\r\n");
                                        }
 
-                                       else if (action == 2)
+                                       else if (action == "2")
                                        {
-                                           Console.Write("Enter name director");
+                                           Console.Write("Enter name director:\r\n"); //Добавить ситуацию, когда не найден режиссер
                                            string name = Console.ReadLine();
                                            StangingWork.SortName(name);
                                        }
 
-                                       else if (action == 3)
+                                       else if (action == "3")
                                        {
                                            Console.Write("Input staging name:\r\n");
                                            string staging_name = Console.ReadLine();
@@ -203,21 +202,26 @@ namespace Home_Work_Second_Theatre
                                            TicketWork.AddTicets(staging_name, hall_type, dd, mm, yy, hh, mi, prise);
                                        }
                                        
-                                       else if (action == 4)
+                                       else if (action == "4")
                                        {
-                                           
+                                           Console.Write("Enter name:\r\n");
+                                           string name = Console.ReadLine();
+                                           int sale = 5;
+                                           VipWork.AddGuest(name, 5);
                                        }
                                        
-                                       else if (action == 5)
+                                       else if (action == "5")
                                        {
-                                           
+                                           Console.Write("Enter staging, which you want delete:\r\n");
+                                           string name = Console.ReadLine();
+                                           StangingWork.Delete(name);
                                        }
                                        
-                                       else if (action == 6)
+                                       else if (action == "6")
                                        {
-                                           
+                                           Console.Write("Goodbye!\r\n");
                                        }
-
+                                       
                                        else
                                        {
                                            Console.Write("You entered a nonexistent command, try again\r\n"); 

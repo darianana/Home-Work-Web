@@ -24,7 +24,14 @@ namespace Work_Theatre
 
         public static void Delete(string name)
         {
-            stagings.RemoveAt(FindId(name));
+            if (FindId(name) != -1)
+            {
+                stagings.RemoveAt(FindId(name));
+            }
+            else
+            {
+                Console.WriteLine("Sorry, you type something wrong");
+            }
         }
 
         public static void SortType(string type)
