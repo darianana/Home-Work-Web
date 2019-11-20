@@ -22,6 +22,8 @@
         <e p="bin" t="ExcludeRecursive" />
         <e p="Cafeteria.cs" t="Include" />
         <e p="CafeteriaWork.cs" t="Include" />
+        <e p="director.cs" t="Include" />
+        <e p="DirectorWork.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive" />
         <e p="Properties" t="Include">
           <e p="AssemblyInfo.cs" t="Include" />

@@ -22,11 +22,6 @@ namespace Work_Theatre
            return(stagings.FindIndex(staging => staging.StagingName == name));
         }
 
-        public static void Request(string name)
-        {
-            stagings[FindId(name)].Request += 1;
-        }
-        
         public static void Delete(string name)
         {
             stagings.RemoveAt(FindId(name));
@@ -43,14 +38,25 @@ namespace Work_Theatre
                 }
             }
         }
+        
+        public static void SortName(string name)
+        {
+            for (int i = 0; i < stagings.Count; i++)
+            {
+                if (stagings[i].Director == name)
+                {
+                    Console.WriteLine( $"Name {stagings[i].Type} is: {stagings[i].StagingName} \r\n" +
+                                       $"Director {stagings[i].Type} is: {stagings[i].Director} \r\n");
+                }
+            }
+        }
 
         public static void ReturnAll()
         {
             for (int i = 0; i < stagings.Count; i++)
             {
                 Console.WriteLine( $"Name {stagings[i].Type} is: {stagings[i].StagingName} \r\n" +
-                                   $"Director {stagings[i].Type} is: {stagings[i].Director}\r\n" +
-                                   $"{stagings[i].Request}");
+                                   $"Director {stagings[i].Type} is: {stagings[i].Director}\r\n");
             }
         }
 

@@ -53,6 +53,8 @@ namespace Home_Work_Second_Theatre
            TicketWork.AddTicets("Свадьба Фигаро", "small scene", 9, 11, 2019, 18,30, 4700);
            TicketWork.AddTicets("Лебединое озеро", "small scene", 2, 11, 2019, 18,30, 3500);
            TicketWork.AddTicets("Три маски короля", "small scene", 22, 11, 2019, 18,30, 3700);
+           
+           DirectorWork.AddAccount("Дарья Рыбка", "1350");
        
            string role = "";
                while (role != "Exit")
@@ -111,7 +113,14 @@ namespace Home_Work_Second_Theatre
                                        Console.Write("Quantity ticket:\r\n");
                                        int quan = Convert.ToInt16(Console.ReadLine());
                                        decimal price = TicketWork.SaleTicket(quan, name, vip);
-                                       Console.Write($"Your purchase amount amounted to: {price}P.\r\n");
+                                       if (VipWork.ThereIs(name))
+                                       {
+                                           Console.Write($"Your purchase amount amounted to: {price}P.\r\n");
+                                       }
+                                       else
+                                       {
+                                           Console.WriteLine("Sorry, you don't VIP person");
+                                       }
                                    }
 
                                    else if (action == 3)
@@ -123,15 +132,107 @@ namespace Home_Work_Second_Theatre
                                        decimal price = TicketWork.SaleTicket(quan, name);
                                        Console.Write($"Your purchase amount amounted to: {price}P.\r\n");
                                    }
-                                   else if(action == 4)
+                                   
+                                   else if (action == 4)
                                    {
                                        Console.Write("Goodbye!\r\n");
                                    }
+
+                                   else
+                                   {
+                                       Console.Write("You entered a nonexistent command, try again\r\n");
+                                   }
+                                   
                                }
                            }
+
+                           if (mode == "Director")
+                           {
+                               Console.Write("Hello! Please enter your login: \r\n");
+                               string login = Console.ReadLine();
+                               Console.Write("Please enter your password: \r\n");
+                               string password = Console.ReadLine();
+                               if (DirectorWork.IsDirector(login))
+                               {
+                                   int action = 0;
+                                   while (action != 6)
+                                   {
+                                       Console.Write("What you need to do? (Choose number)\r\n" +
+                                                     "1. Add some staging.\r\n" +
+                                                     "2. See all the productions of one director.\r\n" +
+                                                     "3. Add staging ticket.\r\n" +
+                                                     "4. Add VIP guest.\r\n" +
+                                                     "5. Delete some staging.\r\n" +
+                                                     "6. That's all. \r\r");
+                                       action = Convert.ToInt16(Console.ReadLine());
+                                       if (action == 1)
+                                       {
+                                           //AddConcert(string name, string director, string type)
+                                           Console.Write("Input staging name:\r\n");
+                                           string staging_name = Console.ReadLine();
+                                           Console.Write("Input staging director:\r\n");
+                                           string staging_director = Console.ReadLine();
+                                           Console.Write("Input staging type (balet, opera, staging): \r\n");
+                                           string staging_type = Console.ReadLine();
+                                           StangingWork.AddConcert(staging_name, staging_director, staging_type);
+                                           Console.Write("Success!\r\n");
+                                       }
+
+                                       else if (action == 2)
+                                       {
+                                           Console.Write("Enter name director");
+                                           string name = Console.ReadLine();
+                                           StangingWork.SortName(name);
+                                       }
+
+                                       else if (action == 3)
+                                       {
+                                           Console.Write("Input staging name:\r\n");
+                                           string staging_name = Console.ReadLine();
+                                           Console.Write("Input type hall (big scene or small):\r\n");
+                                           string hall_type = Console.ReadLine();
+                                           Console.Write("Input data dd mm yy:\r\n");
+                                           int dd = Convert.ToInt16(Console.ReadLine());
+                                           int mm = Convert.ToInt16(Console.ReadLine());
+                                           int yy = Convert.ToInt16(Console.ReadLine());
+                                           Console.Write("Input input data time hh mm:\r\n");
+                                           int hh = Convert.ToInt16(Console.ReadLine());
+                                           int mi = Convert.ToInt16(Console.ReadLine());
+                                           Console.Write("Input price:");
+                                           decimal prise = Convert.ToDecimal(Console.ReadLine());
+                                           TicketWork.AddTicets(staging_name, hall_type, dd, mm, yy, hh, mi, prise);
+                                       }
+                                       
+                                       else if (action == 4)
+                                       {
+                                           
+                                       }
+                                       
+                                       else if (action == 5)
+                                       {
+                                           
+                                       }
+                                       
+                                       else if (action == 6)
+                                       {
+                                           
+                                       }
+
+                                       else
+                                       {
+                                           Console.Write("You entered a nonexistent command, try again\r\n"); 
+                                       }
+                                   }
+                               }
+                               else
+                               {
+                                   Console.Write("Sorry, you don't director\r\n");
+                               }
+                           }
+
                        }
-                   }
-           } 
+                   } 
+               } 
            
         }
     }
