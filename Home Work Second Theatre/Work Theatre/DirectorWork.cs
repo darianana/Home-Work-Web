@@ -10,6 +10,7 @@ namespace Work_Theatre
         public static void AddAccount(string name, string password)
         {
             Account.Add(new Director(name, password));
+            Console.Write("Success!\r\n");
         }
 
         public static int FindId(string name)

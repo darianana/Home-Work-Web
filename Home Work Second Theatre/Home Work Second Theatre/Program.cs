@@ -62,8 +62,7 @@ namespace Home_Work_Second_Theatre
                    Console.Write("Choose your role:\r\n" +
                                  "1. Worker\r\n" +
                                  "2. Visitor\r\n" +
-                                 "3. Exit\r\n" +
-                                 "\r\n");
+                                 "3. Exit\r\n" );
                    role = Console.ReadLine();
                    if (role == "Worker")
                    {
@@ -73,20 +72,21 @@ namespace Home_Work_Second_Theatre
                            Console.Write("Choose your mode: \r\n" +
                                          "1. Seller\r\n" +
                                          "2. Director\r\n" +
-                                         "3. Barmaid\r\n");
+                                         "3. Barmaid\r\n" +
+                                         "4. Exit\r\n");
                            mode = Console.ReadLine();
                            if (mode == "Seller")
                            {
-                               int action = 0;
-                               while (action != 4)
+                               string action = "0";
+                               while (action != "4")
                                {
                                    Console.Write("What you need to do? (Choose number) \r\n" +
                                                  "1. Add new staging\r\n" +
                                                  "2. Sale ticket for VIP\r\n" +
                                                  "3. Sale ticket\r\n" +
                                                  "4. That's all\r\n");
-                                   action = Convert.ToInt16(Console.ReadLine());
-                                   if (action == 1)
+                                   action = Console.ReadLine();
+                                   if (action == "1")
                                    {
                                        Console.Write("Input staging name:\r\n"); //ДОБАВИТЬ ПРОВЕРКИ
                                        string staging_name = Console.ReadLine();
@@ -104,7 +104,7 @@ namespace Home_Work_Second_Theatre
                                        TicketWork.AddTicets(staging_name, hall_type, dd, mm, yy, hh, mi, prise);
                                    }
     
-                                   else if (action == 2) // ДОБАВИТь ПРОВЕРКИ
+                                   else if (action == "2") // ДОБАВИТь ПРОВЕРКИ
                                    {
                                        Console.Write("Ask customer his or her name, and input:\r\n");
                                        string vip = Console.ReadLine();
@@ -123,7 +123,7 @@ namespace Home_Work_Second_Theatre
                                        }
                                    }
 
-                                   else if (action == 3)
+                                   else if (action == "3")
                                    {
                                        Console.Write("Name staging:\r\n");
                                        string name = Console.ReadLine();
@@ -133,11 +133,11 @@ namespace Home_Work_Second_Theatre
                                        Console.Write($"Your purchase amount amounted to: {price}P.\r\n");
                                    }
                                    
-                                   else if (action == 4)
+                                   else if (action == "4")
                                    {
                                        Console.Write("Goodbye!\r\n");
                                    }
-
+                                   
                                    else
                                    {
                                        Console.Write("You entered a nonexistent command, try again\r\n");
@@ -174,7 +174,6 @@ namespace Home_Work_Second_Theatre
                                            Console.Write("Input staging type (balet, opera, staging): \r\n");
                                            string staging_type = Console.ReadLine();
                                            StangingWork.AddConcert(staging_name, staging_director, staging_type);
-                                           Console.Write("Success!\r\n");
                                        }
 
                                        else if (action == "2")
@@ -234,8 +233,81 @@ namespace Home_Work_Second_Theatre
                                }
                            }
 
+                           else if (mode == "Barmaid")
+                           {
+                               string action = "0";
+                               while (action != "4")
+                               {
+                                   Console.Write("What you need to do? (Choose number)\r\n" +
+                                                 "1. Add some product.\r\n" +
+                                                 "2. Sale product.\r\n" +
+                                                 "3. See all products in cafeteria.\r\n" +
+                                                 "4. That's all. \r\r");
+                                   action = Console.ReadLine();
+                                   if (action == "1")
+                                   {
+                                       //Products.Add(new Cafeteria(product, quantity, price));
+                                       Console.Write("Enter product name:\r\n");
+                                       string name = Console.ReadLine();
+                                       Console.Write("Enter quantity: \r\n");
+                                       int quantity = Convert.ToInt16(Console.ReadLine());
+                                       Console.Write("Enter price:\r\n");
+                                       int price = Convert.ToInt16(Console.ReadLine());
+                                       CafeteriaWork.AddProducts(name, quantity, price);
+                                   }
+
+                                   else if (action == "2")
+                                   {
+                                       //(string product, int quantity)
+                                       Console.Write("Enter product name:\r\n");
+                                       string name = Console.ReadLine();
+                                       Console.Write("Enter quantity: \r\n");
+                                       int quantity = Convert.ToInt16(Console.ReadLine());
+                                       decimal price = CafeteriaWork.Sale(name, quantity);
+                                       if (price != 0)
+                                       {
+                                           Console.Write($"Your purchase amount amounted to: {price}P.\r\n");
+                                       }
+                                       else
+                                       {
+                                           Console.Write("Something wrong");
+                                       }
+                                   }
+                                   
+                                   else if (action == "3")
+                                   {
+                                       CafeteriaWork.ShowAll();
+                                   }
+                                   
+                                   else if (action == "4")
+                                   {
+                                       Console.Write("Goodbye!\r\n");
+                                   }
+                                   
+                                   else
+                                   {
+                                       Console.Write("You entered a nonexistent command, try again\r\n"); 
+                                   }
+                                   
+                               }
+                           }
+
+                           else if (mode == "Exit")
+                           {
+                               Console.Write("Goodbye!\r\n");
+                           }
+
+                           else
+                           {
+                               Console.Write("You entered a nonexistent command, try again\r\n"); 
+                           }
                        }
                    } 
+                   
+                   else if (role == "Visitor")
+                   {
+                       
+                   }
                } 
            
         }

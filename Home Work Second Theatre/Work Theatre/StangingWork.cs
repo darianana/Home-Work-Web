@@ -12,7 +12,7 @@ namespace Work_Theatre
             if (type == "balet" || type == "opera" || type == "staging")
             {
                 stagings.Add(new Staging(name, director, type));
-                return;
+                Console.Write("Success!\r\n");
             }
             Console.WriteLine("Sorry, you wrote the wrong type");
         }
@@ -27,6 +27,7 @@ namespace Work_Theatre
             if (FindId(name) != -1)
             {
                 stagings.RemoveAt(FindId(name));
+                Console.Write("Success!\r\n");
             }
             else
             {

@@ -9,7 +9,15 @@ namespace Work_Theatre
 
         public static void AddProducts(string product, int quantity, int price)
         {
-            Products.Add(new Cafeteria(product, quantity, price));
+            if (quantity != 0 && price != 0)
+            {
+                Products.Add(new Cafeteria(product, quantity, price));
+                Console.Write("Success!\r\n");
+            }
+            else
+            {
+                Console.WriteLine("You enter wrong data.\r\n");
+            }
         }
 
         public static int FindId(string product)
@@ -26,13 +34,16 @@ namespace Work_Theatre
         {
             int i = FindId(product);
             decimal price = 0;
-            if (Products[i].Quantity <= quantity)
+            if (i != -1)
             {
-                price = Products[i].Price * quantity;
-                Products[i].Quantity -= quantity;
-                if (Products[i].Quantity == 0)
+                if (Products[i].Quantity <= quantity)
                 {
-                    Delete(product);
+                    price = Products[i].Price * quantity;
+                    Products[i].Quantity -= quantity;
+                    if (Products[i].Quantity == 0)
+                    {
+                        Delete(product);
+                    }
                 }
             }
             return price;
@@ -42,7 +53,7 @@ namespace Work_Theatre
         {
             for (int i = 0; i < Products.Count; i++)
             {
-                Console.WriteLine($"Product name: {Products[i].Product}\r\n" +
+                Console.WriteLine($"{i+1}) Product name: {Products[i].Product}\r\n" +
                               $"Price {Products[i].Product}: {Products[i].Price}\r\n" +
                               $"Quantity {Products[i].Product}: {Products[i].Quantity}");   
             }

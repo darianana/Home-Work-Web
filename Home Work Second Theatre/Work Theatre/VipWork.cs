@@ -10,6 +10,7 @@ namespace Work_Theatre
         public static void AddGuest(string name, int purchases)
         {
            Guests.Add(new VIP(name, purchases)); 
+           Console.Write("Success!\r\n");
         }
 
         public static bool ThereIs(string name) // Наличие гостя в  VIP списке

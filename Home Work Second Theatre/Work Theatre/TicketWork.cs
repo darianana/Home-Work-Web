@@ -14,7 +14,7 @@ namespace Work_Theatre
             {
                 DateTime time = new DateTime(year, month, day, hour, min, s);
                 tickets.Add(new Ticket(name, hall, time, price));
-                return;
+                Console.Write("Success!\r\n");
             }
            Console.WriteLine("Sorry, you wrote wrong parameters, try again");
         }
