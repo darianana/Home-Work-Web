@@ -12,7 +12,7 @@ namespace Work_Theatre
             if (quantity != 0 && price != 0)
             {
                 Products.Add(new Cafeteria(product, quantity, price));
-                Console.Write("Success!\r\n");
+             //   Console.Write("Success!\r\n");
             }
             else
             {

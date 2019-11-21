@@ -12,9 +12,12 @@ namespace Work_Theatre
             if (type == "balet" || type == "opera" || type == "staging")
             {
                 stagings.Add(new Staging(name, director, type));
-                Console.Write("Success!\r\n");
+              //  Console.Write("Success!\r\n");
             }
-            Console.WriteLine("Sorry, you wrote the wrong type");
+            else
+            {
+                Console.WriteLine("Sorry, you wrote the wrong type");
+            }
         }
         
         public static int FindId(string name)
@@ -27,11 +30,11 @@ namespace Work_Theatre
             if (FindId(name) != -1)
             {
                 stagings.RemoveAt(FindId(name));
-                Console.Write("Success!\r\n");
+               // Console.Write("Success!\r\n");
             }
             else
             {
-                Console.WriteLine("Sorry, you type something wrong");
+              //  Console.WriteLine("Sorry, you type something wrong");
             }
         }
 
@@ -41,7 +44,7 @@ namespace Work_Theatre
             {
                 if (stagings[i].Type == type)
                 {
-                    Console.WriteLine( $"Name {stagings[i].Type} is: {stagings[i].StagingName} \r\n" +
+                    Console.WriteLine( $"{i+1}) Name {stagings[i].Type} is: {stagings[i].StagingName} \r\n" +
                                        $"Director {stagings[i].Type} is: {stagings[i].Director} \r\n");
                 }
             }
@@ -49,13 +52,20 @@ namespace Work_Theatre
         
         public static void SortName(string name)
         {
-            for (int i = 0; i < stagings.Count; i++)
+            if (FindId(name) != -1)
             {
-                if (stagings[i].Director == name)
+                for (int i = 0; i < stagings.Count; i++)
                 {
-                    Console.WriteLine( $"Name {stagings[i].Type} is: {stagings[i].StagingName} \r\n" +
-                                       $"Director {stagings[i].Type} is: {stagings[i].Director} \r\n");
+                    if (stagings[i].Director == name)
+                    {
+                        Console.WriteLine($"{i + 1}) Name {stagings[i].Type} is: {stagings[i].StagingName} \r\n" +
+                                          $"Director {stagings[i].Type} is: {stagings[i].Director} \r\n");
+                    }
                 }
+            }
+            else
+            {
+                Console.WriteLine("Sorry, director with this name not found, maybe are you mistake?");
             }
         }
 
@@ -63,7 +73,7 @@ namespace Work_Theatre
         {
             for (int i = 0; i < stagings.Count; i++)
             {
-                Console.WriteLine( $"Name {stagings[i].Type} is: {stagings[i].StagingName} \r\n" +
+                Console.WriteLine( $"{i+1}) Name {stagings[i].Type} is: {stagings[i].StagingName} \r\n" +
                                    $"Director {stagings[i].Type} is: {stagings[i].Director}\r\n");
             }
         }

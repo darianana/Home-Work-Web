@@ -70,10 +70,10 @@ namespace Home_Work_Second_Theatre
                        while (mode != "Exit")
                        {
                            Console.Write("Choose your mode: \r\n" +
-                                         "1. Seller\r\n" +
-                                         "2. Director\r\n" +
-                                         "3. Barmaid\r\n" +
-                                         "4. Exit\r\n");
+                                         "1. Seller.\r\n" +
+                                         "2. Director.\r\n" +
+                                         "3. Barmaid.\r\n" +
+                                         "4. Exit.\r\n");
                            mode = Console.ReadLine();
                            if (mode == "Seller")
                            {
@@ -81,10 +81,10 @@ namespace Home_Work_Second_Theatre
                                while (action != "4")
                                {
                                    Console.Write("What you need to do? (Choose number) \r\n" +
-                                                 "1. Add new staging\r\n" +
-                                                 "2. Sale ticket for VIP\r\n" +
-                                                 "3. Sale ticket\r\n" +
-                                                 "4. That's all\r\n");
+                                                 "1. Add new staging.\r\n" +
+                                                 "2. Sale ticket for VIP.\r\n" +
+                                                 "3. Sale ticket.\r\n" +
+                                                 "4. That's all.\r\n");
                                    action = Console.ReadLine();
                                    if (action == "1")
                                    {
@@ -306,7 +306,55 @@ namespace Home_Work_Second_Theatre
                    
                    else if (role == "Visitor")
                    {
-                       
+                       string action = "0";
+                       while (action != "6")
+                       {
+                           Console.Write("Hello! What you need to do? (Choose number)\r\n" +
+                                         "1. Look all staging theater.\r\n" +
+                                         "2. Look all staging with certain director.\r\n" +
+                                         "3. Look all staging with certain type.\r\n" +
+                                         "4. Look all ticket.\r\n" +
+                                         "4. By tickets.\r\n" +
+                                         "5. Find yourself in the VIP list.\r\n" +
+                                         "6. Order food.\r\n" +
+                                         "7. That's all.\r\n");
+                           action = Console.ReadLine();
+                           if (action == "1")
+                           {
+                               StangingWork.ReturnAll();
+                           }
+
+                           if (action == "2")
+                           {
+                               Console.Write("Enter director name: \r\n");
+                               string name = Console.ReadLine();
+                               StangingWork.SortName(name);
+                           }
+
+                           if (action == "3")
+                           {
+                               Console.Write("Enter type staging (balet, opera, staging): \r\n");
+                               string name = Console.ReadLine();
+                               if (name == "balet" || name == "opera" || name == "staging")
+                               {
+                                   StangingWork.SortType(name);
+                               }
+                               else
+                               {
+                                   Console.WriteLine("You wrote mistake type. Try again.\r\n");
+                               }
+                           }
+
+                           if (action == "4")
+                           {
+                               TicketWork.ShowAll();
+                           }
+
+                           if (action == "5")
+                           {
+                               
+                           }
+                       }
                    }
                } 
            

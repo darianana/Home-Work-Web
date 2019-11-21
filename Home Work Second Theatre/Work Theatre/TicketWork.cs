@@ -14,9 +14,12 @@ namespace Work_Theatre
             {
                 DateTime time = new DateTime(year, month, day, hour, min, s);
                 tickets.Add(new Ticket(name, hall, time, price));
-                Console.Write("Success!\r\n");
+               // Console.Write("Success!\r\n");
             }
-           Console.WriteLine("Sorry, you wrote wrong parameters, try again");
+            else
+            {
+                Console.WriteLine("Sorry, you wrote wrong parameters, try again");
+            }
         }
         
         public static int FindId(string name)
@@ -37,9 +40,9 @@ namespace Work_Theatre
         }
         public static void ShowAll() // Выводит все билеты
         {
-            for (int i = 0; i < stagings.Count; i++)
+            for (int i = 0; i < tickets.Count; i++)
             {
-                Console.WriteLine( $"Name {stagings[FindId(tickets[i].Name)].Type} is: {tickets[i].Name} \r\n" +
+                Console.WriteLine( $"{i+1}) Name {stagings[FindId(tickets[i].Name)].Type} is: {tickets[i].Name} \r\n" +
                                    $"Director {stagings[FindId(tickets[i].Name)].Type} is: {stagings[FindId(tickets[i].Name)].Director} \r\n" +
                                    $"Hall is: {tickets[i].Hall} \r\n" +
                                    $"Price is: {tickets[i].Price} \r\n" +
