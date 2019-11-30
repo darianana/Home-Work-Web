@@ -9,8 +9,7 @@ namespace Work_Theatre
 
         public static void AddGuest(string name, int purchases)
         {
-           Guests.Add(new VIP(name, purchases)); 
-          // Console.Write("Success!\r\n");
+           Guests.Add(new VIP(name, purchases));
         }
 
         public static bool ThereIs(string name) // Наличие гостя в  VIP списке
@@ -40,7 +39,7 @@ namespace Work_Theatre
             }
             else
             {
-                return 0;
+                return 1;
             }
         }
 

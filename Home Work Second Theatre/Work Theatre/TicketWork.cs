@@ -69,12 +69,13 @@ namespace Work_Theatre
         public static decimal SaleTicket(int quant, string stname, string vipname) 
         {
             decimal result = 0;
+            decimal result1 = 0;
             if (VipWork.ThereIs(vipname))
             {
                 if (quant < tickets[FindId(stname)].FreePlace)
                 {
                     result = quant * tickets[FindId(stname)].Price;
-                    result -= (result / 100) * VipWork.SizeSale(vipname);
+                    result1 = result - (result / 100) * VipWork.SizeSale(vipname);
                     tickets[FindId(stname)].FreePlace -= quant;
                     VipWork.AddPurchases(vipname, quant);
                     
@@ -84,7 +85,7 @@ namespace Work_Theatre
                     }
                 }
             }
-            return result;
+            return result1;
         }
     }
 }

@@ -31,6 +31,7 @@ namespace Work_Theatre
                 return false;
             }
         }
+        
         public static bool CheckPassword(string name, string password)
         {
             if (IsDirector(name))
@@ -41,7 +42,7 @@ namespace Work_Theatre
                 }
                 else
                 {
-                    Console.Write("Password error, try again");
+                    Console.Write("Password error, try again. \r\n");
                     return false;
                 }
             }

@@ -49,6 +49,7 @@ namespace Home_Work_Second_Theatre
            VipWork.AddGuest("Юрий Смекалов", 6);
            VipWork.AddGuest("Оксана Скорик", 3);
            VipWork.AddGuest("Марко Юусела", 15);
+           VipWork.AddGuest("Дарья Рыбка", 15);
             
            TicketWork.AddTicets("Свадьба Фигаро", "small scene", 9, 11, 2019, 18,30, 4700);
            TicketWork.AddTicets("Лебединое озеро", "small scene", 2, 11, 2019, 18,30, 3500);
@@ -64,10 +65,10 @@ namespace Home_Work_Second_Theatre
                                  "2. Visitor\r\n" +
                                  "3. Exit\r\n" );
                    role = Console.ReadLine();
-                   if (role == "Worker")
+                   if (role == "Worker" || role == "worker")
                    {
                        string mode = "";
-                       while (mode != "Exit")
+                       while (mode != "Exit" || mode != "exit")
                        {
                            Console.Write("Choose your mode: \r\n" +
                                          "1. Seller.\r\n" +
@@ -75,7 +76,7 @@ namespace Home_Work_Second_Theatre
                                          "3. Barmaid.\r\n" +
                                          "4. Exit.\r\n");
                            mode = Console.ReadLine();
-                           if (mode == "Seller")
+                           if (mode == "Seller" || mode == "seller")
                            {
                                string action = "0";
                                while (action != "4")
@@ -84,11 +85,12 @@ namespace Home_Work_Second_Theatre
                                                  "1. Add new staging.\r\n" +
                                                  "2. Sale ticket for VIP.\r\n" +
                                                  "3. Sale ticket.\r\n" +
-                                                 "4. That's all.\r\n");
+                                                 "4. See all staging.\r\n" +
+                                                 "5. That's all.\r\n");
                                    action = Console.ReadLine();
                                    if (action == "1")
                                    {
-                                       Console.Write("Input staging name:\r\n"); //ДОБАВИТЬ ПРОВЕРКИ
+                                       Console.Write("Input staging name:\r\n");
                                        string staging_name = Console.ReadLine();
                                        Console.Write("Input type hall (big scene or small):\r\n");
                                        string hall_type = Console.ReadLine();
@@ -104,7 +106,7 @@ namespace Home_Work_Second_Theatre
                                        TicketWork.AddTicets(staging_name, hall_type, dd, mm, yy, hh, mi, prise);
                                    }
     
-                                   else if (action == "2") // ДОБАВИТь ПРОВЕРКИ
+                                   else if (action == "2") 
                                    {
                                        Console.Write("Ask customer his or her name, and input:\r\n");
                                        string vip = Console.ReadLine();
@@ -130,10 +132,22 @@ namespace Home_Work_Second_Theatre
                                        Console.Write("Quantity ticket:\r\n");
                                        int quan = Convert.ToInt16(Console.ReadLine());
                                        decimal price = TicketWork.SaleTicket(quan, name);
-                                       Console.Write($"Your purchase amount amounted to: {price}P.\r\n");
+                                       if (price > 0)
+                                       {
+                                           Console.Write($"Your purchase amount amounted to: {price}P.\r\n");
+                                       }
+                                       else if (price == 0)
+                                       {
+                                           Console.Write("Sorry, we have less free place than you need, or staging not found");
+                                       }
                                    }
                                    
                                    else if (action == "4")
+                                   {
+                                       
+                                   }
+                                   
+                                   else if (action == "5")
                                    {
                                        Console.Write("Goodbye!\r\n");
                                    }
@@ -146,13 +160,13 @@ namespace Home_Work_Second_Theatre
                                }
                            }
 
-                           if (mode == "Director")
+                           if (mode == "Director" || mode == "director")
                            {
                                Console.Write("Hello! Please enter your login: \r\n");
                                string login = Console.ReadLine();
                                Console.Write("Please enter your password: \r\n");
                                string password = Console.ReadLine();
-                               if (DirectorWork.IsDirector(login))
+                               if (DirectorWork.CheckPassword(login, password))
                                {
                                    string action = "0";
                                    while (action != "6")
@@ -178,9 +192,16 @@ namespace Home_Work_Second_Theatre
 
                                        else if (action == "2")
                                        {
-                                           Console.Write("Enter name director:\r\n"); //Добавить ситуацию, когда не найден режиссер
+                                           Console.Write("Enter name director:\r\n"); 
                                            string name = Console.ReadLine();
-                                           StangingWork.SortName(name);
+                                           if (StangingWork.FindId(name) != -1)
+                                           {
+                                               StangingWork.SortName(name);
+                                           }
+                                           else
+                                           {
+                                               Console.WriteLine("Director don't found. \r\n");
+                                           }
                                        }
 
                                        else if (action == "3")
@@ -205,7 +226,6 @@ namespace Home_Work_Second_Theatre
                                        {
                                            Console.Write("Enter name:\r\n");
                                            string name = Console.ReadLine();
-                                           int sale = 5;
                                            VipWork.AddGuest(name, 5);
                                        }
                                        
@@ -223,17 +243,17 @@ namespace Home_Work_Second_Theatre
                                        
                                        else
                                        {
-                                           Console.Write("You entered a nonexistent command, try again\r\n"); 
+                                           Console.Write("You entered a nonexistent command, try again.\r\n"); 
                                        }
                                    }
                                }
-                               else
+                               else if (!(DirectorWork.IsDirector(login)))
                                {
-                                   Console.Write("Sorry, you don't director\r\n");
+                                   Console.Write("Sorry, you don't director, or you write mistake login.\r\n");
                                }
                            }
 
-                           else if (mode == "Barmaid")
+                           else if (mode == "Barmaid" || mode == "barmaid")
                            {
                                string action = "0";
                                while (action != "4")
@@ -292,7 +312,7 @@ namespace Home_Work_Second_Theatre
                                }
                            }
 
-                           else if (mode == "Exit")
+                           else if (mode == "Exit" || mode == "exit")
                            {
                                Console.Write("Goodbye!\r\n");
                            }
@@ -304,19 +324,18 @@ namespace Home_Work_Second_Theatre
                        }
                    } 
                    
-                   else if (role == "Visitor")
+                   else if (role == "Visitor" || role == "visitor")
                    {
                        string action = "0";
-                       while (action != "6")
+                       while (action != "7")
                        {
                            Console.Write("Hello! What you need to do? (Choose number)\r\n" +
                                          "1. Look all staging theater.\r\n" +
                                          "2. Look all staging with certain director.\r\n" +
                                          "3. Look all staging with certain type.\r\n" +
                                          "4. Look all ticket.\r\n" +
-                                         "4. By tickets.\r\n" +
-                                         "5. Find yourself in the VIP list.\r\n" +
-                                         "6. Order food.\r\n" +
+                                         "5. By tickets.\r\n" +
+                                         "6. Find yourself in the VIP list.\r\n" +
                                          "7. That's all.\r\n");
                            action = Console.ReadLine();
                            if (action == "1")
@@ -324,14 +343,14 @@ namespace Home_Work_Second_Theatre
                                StangingWork.ReturnAll();
                            }
 
-                           if (action == "2")
+                           else if (action == "2")
                            {
                                Console.Write("Enter director name: \r\n");
                                string name = Console.ReadLine();
                                StangingWork.SortName(name);
                            }
 
-                           if (action == "3")
+                           else if (action == "3")
                            {
                                Console.Write("Enter type staging (balet, opera, staging): \r\n");
                                string name = Console.ReadLine();
@@ -345,14 +364,81 @@ namespace Home_Work_Second_Theatre
                                }
                            }
 
-                           if (action == "4")
+                           else if (action == "4")
                            {
                                TicketWork.ShowAll();
                            }
-
-                           if (action == "5")
+                           
+                           else if (action == "5")
                            {
+                               Console.Write("Write your name:\r\n");
+                               string vip = Console.ReadLine();
+                               Console.Write("Name staging:\r\n");
+                               string name = Console.ReadLine();
+                               Console.Write("Quantity ticket:\r\n");
+                               int quan = Convert.ToInt16(Console.ReadLine());
+                              
+                               if (VipWork.ThereIs(name))
+                               {
+                                   decimal price = TicketWork.SaleTicket(quan, name, vip);
+                                   if (price > 0)
+                                   {
+                                       Console.Write($"Your purchase amount amounted to: {price}P.\r\n");
+                                   }
+                                   else if (price == 0)
+                                   {
+                                       Console.Write("Sorry, we have less free place than you need, or staging not found");
+                                   }
+                               }
+                               else
+                               {
+                                   decimal price = TicketWork.SaleTicket(quan, name);
+                                   if (price > 0)
+                                   {
+                                       Console.Write($"Your purchase amount amounted to: {price}P.\r\n");
+                                   }
+                                   else if (price == 0)
+                                   {
+                                       Console.Write("Sorry, we have less free place than you need, or staging not found");
+                                   }
+                               }
                                
+                           }
+
+                          else if (action == "6")
+                           {
+                               Console.Write("Enter your name: \r\n");
+                               string name = Console.ReadLine();
+                               if (VipWork.ThereIs(name))
+                               {
+                                   Console.WriteLine($"You on the lists, your discount is {VipWork.SizeSale(name)}.\r\n");
+                               }
+                               else
+                               {
+                                   Console.WriteLine("You are not found. Do you want to add yourself to the guest list? \r\n" +
+                                                     "Yes or No");
+                                   string answ = Console.ReadLine();
+                                   if (answ == "Yes")
+                                   {
+                                       VipWork.AddGuest(name, 0);
+                                       Console.WriteLine("Sucсess");
+                                   }
+
+                                   if (answ == "No")
+                                   {
+                                       Console.WriteLine("Ok");
+                                   }
+                               }
+                           }
+
+                          else if (action == "7")
+                           {
+                               Console.Write("Goodbye!\r\n");
+                           }
+                           
+                           else
+                           {
+                               Console.Write("You entered a nonexistent command, try again\r\n"); 
                            }
                        }
                    }
