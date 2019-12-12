@@ -36,7 +36,7 @@ namespace Work_Theatre
             decimal price = 0;
             if (i != -1)
             {
-                if (Products[i].Quantity <= quantity)
+                if (Products[i].Quantity >= quantity)
                 {
                     price = Products[i].Price * quantity;
                     Products[i].Quantity -= quantity;

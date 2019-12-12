@@ -25,6 +25,20 @@ namespace Work_Theatre
            return(stagings.FindIndex(staging => staging.StagingName == name));
         }
 
+        public static bool IsFind(string name)
+        {
+            Int32 id = -1;
+            id = FindId(name);
+            if (id != -1)
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+        }
+
         public static void Delete(string name)
         {
             if (FindId(name) != -1)
@@ -52,7 +66,7 @@ namespace Work_Theatre
         
         public static void SortName(string name)
         {
-            if (FindId(name) != -1)
+            if (IsFind(name))
             {
                 for (int i = 0; i < stagings.Count; i++)
                 {

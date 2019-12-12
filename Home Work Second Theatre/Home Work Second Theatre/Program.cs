@@ -79,7 +79,7 @@ namespace Home_Work_Second_Theatre
                            if (mode == "Seller" || mode == "seller")
                            {
                                string action = "0";
-                               while (action != "4")
+                               while (action != "5")
                                {
                                    Console.Write("What you need to do? (Choose number) \r\n" +
                                                  "1. Add new staging.\r\n" +
@@ -144,7 +144,7 @@ namespace Home_Work_Second_Theatre
                                    
                                    else if (action == "4")
                                    {
-                                       
+                                       StangingWork.ReturnAll();
                                    }
                                    
                                    else if (action == "5")
