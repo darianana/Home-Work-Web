@@ -9,6 +9,7 @@
         <e p="appsettings.json" t="Include" />
         <e p="AuthenticationMiddleware.cs" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
+        <e p="ErrorHandlingMiddleware.cs" t="Include" />
         <e p="fifth.csproj" t="IncludeRecursive" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
