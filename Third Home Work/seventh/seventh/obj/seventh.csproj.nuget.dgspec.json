@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\seventh\\seventh\\seventh.csproj": {}
+    "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\seventh\\seventh\\seventh.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\seventh\\seventh\\seventh.csproj": {
+    "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\seventh\\seventh\\seventh.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\seventh\\seventh\\seventh.csproj",
+        "projectUniqueName": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\seventh\\seventh\\seventh.csproj",
         "projectName": "seventh",
-        "projectPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\seventh\\seventh\\seventh.csproj",
+        "projectPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\seventh\\seventh\\seventh.csproj",
         "packagesPath": "C:\\Users\\karpe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\seventh\\seventh\\obj\\",
+        "outputPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\seventh\\seventh\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet",

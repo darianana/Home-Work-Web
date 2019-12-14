@@ -14,7 +14,7 @@ namespace seventh
                     text = context.Request.Cookies["text"];
                     if (text == null)
                     {
-                        context.Response.Cookies.Append("text", "HELLOOOOO");
+                        context.Response.Cookies.Append("text", "Hi!");
                     }
                 }
         
