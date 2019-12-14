@@ -32,7 +32,9 @@ namespace second
  
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync($"lg(sin(Pi/x) * k = {n}");
+                await context.Response.WriteAsync($"x = 10\r\n" +
+                                                  $"k = 100\r\n" +
+                                                  $"lg(sin(Pi/x) * k = {n}");
             });
         }
     }
