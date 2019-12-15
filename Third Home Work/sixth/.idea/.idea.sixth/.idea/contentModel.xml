@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
     <e p="C:\Users\karpe\.Rider2019.2\system\extResources" t="IncludeRecursive" />
@@ -22,6 +22,10 @@
         </e>
         <e p="sixth.csproj" t="IncludeRecursive" />
         <e p="Startup.cs" t="Include" />
+        <e p="wwwroot" t="Include">
+          <e p="2.jpg" t="Include" />
+          <e p="index.html" t="Include" />
+        </e>
       </e>
       <e p="sixth.sln" t="IncludeFlat" />
     </e>
