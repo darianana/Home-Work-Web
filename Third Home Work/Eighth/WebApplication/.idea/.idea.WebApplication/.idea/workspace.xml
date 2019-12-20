@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c36694d1-adba-4de8-8799-c85496c3939c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../Eighth/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/.idea/.idea.Eighth/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/.idea/.idea.Eighth/.idea/contentModel.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/.idea/.idea.Eighth/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/.idea/.idea.Eighth/.idea/indexLayout.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/.idea/.idea.Eighth/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/.idea/.idea.Eighth/.idea/projectSettingsUpdater.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/.idea/.idea.Eighth/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/.idea/.idea.Eighth/riderModule.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth.sln" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/Controllers/HomeController.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/Eighth.csproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/Models/ErrorViewModel.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/Models/MobileContext.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/Models/Order.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/Models/Phone.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/Program.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/SampleData.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/Startup.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/Views/Home/Index.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/Views/Home/Privacy.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/Views/Shared/Error.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/Views/Shared/_Layout.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/Views/Shared/_ValidationScriptsPartial.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/Views/_ViewImports.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/Views/_ViewStart.cshtml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Eighth.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Eighth.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Eighth.deps.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Eighth.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Eighth.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Eighth.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Eighth.runtimeconfig.dev.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Eighth.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Microsoft.Bcl.AsyncInterfaces.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Microsoft.Bcl.HashCode.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.Relational.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Microsoft.EntityFrameworkCore.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Microsoft.Extensions.Caching.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Microsoft.Extensions.Caching.Memory.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Microsoft.Extensions.Configuration.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Microsoft.Extensions.Configuration.Binder.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Microsoft.Extensions.Configuration.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Microsoft.Extensions.DependencyInjection.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Microsoft.Extensions.Logging.Abstractions.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Microsoft.Extensions.Logging.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Microsoft.Extensions.Options.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Microsoft.Extensions.Primitives.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Microsoft.Identity.Client.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/Properties/launchSettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/System.Collections.Immutable.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/System.ComponentModel.Annotations.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/System.Configuration.ConfigurationManager.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/System.Diagnostics.DiagnosticSource.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/System.Runtime.Caching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/System.Runtime.CompilerServices.Unsafe.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/appsettings.Development.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/appsettings.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/runtimes/unix/lib/netcoreapp2.0/System.Runtime.Caching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/runtimes/unix/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/runtimes/win-arm64/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/runtimes/win-x64/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/runtimes/win-x86/native/sni.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/runtimes/win/lib/netcoreapp2.0/System.Runtime.Caching.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/runtimes/win/lib/netcoreapp2.1/Microsoft.Data.SqlClient.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/bin/Debug/netcoreapp3.0/runtimes/win/lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Eighth.AssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Eighth.AssemblyInfoInputs.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Eighth.MvcApplicationPartsAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Eighth.RazorAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Eighth.RazorAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Eighth.RazorCoreGenerate.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Eighth.RazorTargetAssemblyInfo.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Eighth.RazorTargetAssemblyInfo.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Eighth.TagHelpers.input.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Eighth.TagHelpers.output.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Eighth.Views.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Eighth.Views.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Eighth.assets.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Eighth.csproj.CopyComplete" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Eighth.csproj.FileListAbsolute.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Eighth.csprojAssemblyReference.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Eighth.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Eighth.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Eighth.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Razor/Views/Home/Privacy.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Razor/Views/Shared/Error.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_Layout.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Razor/Views/Shared/_ValidationScriptsPartial.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Razor/Views/_ViewImports.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/Razor/Views/_ViewStart.cshtml.g.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/staticwebassets/Eighth.StaticWebAssets.Manifest.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Debug/netcoreapp3.0/staticwebassets/Eighth.StaticWebAssets.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Eighth.csproj.nuget.cache" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Eighth.csproj.nuget.dgspec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Eighth.csproj.nuget.g.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/Eighth.csproj.nuget.g.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/project.assets.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/obj/project.packagespec.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/css/site.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/js/site.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/jquery-validation/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/jquery-validation/dist/additional-methods.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/jquery-validation/dist/additional-methods.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/jquery-validation/dist/jquery.validate.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/jquery/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/jquery/dist/jquery.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/jquery/dist/jquery.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Eighth/Eighth/wwwroot/lib/jquery/dist/jquery.min.map" beforeDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/WebApplication/Models/MobileContext.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/appsettings.json" />
+        <option value="$PROJECT_DIR$/WebApplication/SampleData.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Program.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Controllers/HomeController.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Startup.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Views/Home/Index.cshtml" />
+        <option value="$PROJECT_DIR$/WebApplication/Models/Phone.cs" />
+        <option value="$PROJECT_DIR$/WebApplication/Models/Order.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1VFCFml7nzcP3Avz6aQF2dFpuJV" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Launch Settings Profile.WebApplication">
+    <configuration name="WebApplication" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApplication/WebApplication.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="WebApplication" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebApplication: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
+      <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/WebApplication/WebApplication.csproj" />
+      <option name="LAUNCH_PROFILE_TFM" value=".NETCoreApp,Version=v3.0" />
+      <option name="LAUNCH_PROFILE_NAME" value="IIS Express" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="GENERATE_APPLICATIONHOST_CONFIG" value="1" />
+      <option name="SHOW_IIS_EXPRESS_OUTPUT" value="0" />
+      <option name="SEND_DEBUG_REQUEST" value="1" />
+      <option name="ADDITIONAL_IIS_EXPRESS_ARGUMENTS" value="" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c36694d1-adba-4de8-8799-c85496c3939c" name="Default Changelist" comment="" />
+      <created>1576839355915</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1576839355915</updated>
+      <workItem from="1576839359291" duration="728000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
