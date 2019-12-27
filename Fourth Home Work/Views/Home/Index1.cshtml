@@ -1,0 +1,37 @@
+﻿@model IEnumerable<Fourth_Home_Work.Models.Director>
+<!DOCTYPE html>
+ 
+<html>
+<head>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Theater</title>
+    </head>
+</head>
+<body>
+<h3>Directors</h3>
+<form>
+    <span>
+        <input type="search" name="searchString" />
+        <input type="submit" value="Find" />
+    </span>
+</form>
+<table class="table-condensed" cellpadding="15" cellspacing="15">
+    @foreach (var director in Model)
+    {
+        <tr>
+            <td>@director.Name</td>
+            <td><a href="~/Home/DirectorInfo/@director.Id">More</a></td>
+            <td><a href="~/Home/DeleteDirector/@director.Id">Delete</a></td>
+            <td><a href="~/Home/EditDirector/@director.Id">Change</a></td>
+        </tr>
+    }
+</table>
+@using (Html.BeginForm("AddNewDirector", null, FormMethod.Get))
+{
+    <form class="form-control" action="~/Home/Index1/AddNewDirector">
+        <input type="submit" value="Add new guest" />
+    </form>
+}
+</body>
+</html>

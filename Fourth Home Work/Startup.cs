@@ -26,8 +26,8 @@ namespace Fourth_Home_Work
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            string connection = Configuration.GetConnectionString("DefaultConnection");
-            services.AddDbContext<BookContext>(options => options.UseSqlServer(connection));
+            var connection = Configuration.GetConnectionString("DefaultConnection");
+            services.AddDbContext<Database>(options => options.UseSqlServer(connection));
             services.AddControllersWithViews();
         }
 
@@ -35,16 +35,16 @@ namespace Fourth_Home_Work
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseDeveloperExceptionPage();
-
+             
             app.UseStaticFiles();
-
+ 
             app.UseRouting();
-
+ 
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllerRoute(
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=Main}/{id?}");
             });
         }
     }

@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Fourth_Home_Work.Models.Director>
+<!DOCTYPE html>
+ 
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Info about director</title>
+</head>
+<body>
+<h3>Info about director</h3>
+<table  class="table-condensed" cellpadding="15" cellspacing="15">
+    <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Type</td>
+    </tr>
+    <tr>
+        <td>@ViewBag.Director.Id</td>
+        <td>@ViewBag.Director.Name</td>
+        <td>@ViewBag.Director.Type</td>
+    </tr>
+</table>
+<form action="~/Home/Index1">
+    <input type="submit" value="Go back"/>
+</form>
+
+</body>
+</html>

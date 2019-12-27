@@ -1,8 +1,37 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model IEnumerable<Fourth_Home_Work.Models.Film>
+<!DOCTYPE html>
+ 
+<html>
+<head>
+    <head>
+        <meta name="viewport" content="width=device-width" />
+        <title>Theater</title>
+    </head>
+</head>
+<body>
+<h3>Stagings</h3>
+ <form>
+     <span>
+         <input type="search" name="searchString" />
+         <input type="submit" value="Find" />
+     </span>
+ </form>
+<table class="table-condensed" cellpadding="15" cellspacing="15">
+    @foreach (var film in Model)
+    {
+        <tr>
+            <td>@film.Name</td>
+            <td><a href="~/Home/FilmInfo/@film.Id">More</a></td>
+            <td><a href="~/Home/DeleteFilm/@film.Id">Delete</a></td>
+            <td><a href="~/Home/EditFilm/@film.Id">Change</a></td>
+        </tr>
+    }
+</table>
+@using (Html.BeginForm("AddNewfilm", null, FormMethod.Get))
+{
+    <form class="form-control" action="~/Home/Index/AddNewFilm">
+        <input type="submit" value="Add new film" />
+    </form>
 }
-
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+</body>
+</html>

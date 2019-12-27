@@ -2,6 +2,9 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.0": {
+      "dbup-add-migration/1.3.0": {
+        "type": "package"
+      },
       "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
         "type": "package",
         "compile": {
@@ -1270,6 +1273,20 @@
     }
   },
   "libraries": {
+    "dbup-add-migration/1.3.0": {
+      "sha512": "toVb2YtVAOEgk5x6IW8Vad1RbLY5JSqmxk5ubHaybHt/wj3TO8jD77JhpLtYemPRYmsYJkImBLsUbKJyOB7MDw==",
+      "type": "package",
+      "path": "dbup-add-migration/1.3.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "dbup-add-migration.1.3.0.nupkg.sha512",
+        "dbup-add-migration.nuspec",
+        "tools/dbup-add-migration.psm1",
+        "tools/init.ps1"
+      ]
+    },
     "Microsoft.Bcl.AsyncInterfaces/1.1.0": {
       "sha512": "1Am6l4Vpn3/K32daEqZI+FFr96OlZkgwK2LcT3pZ2zWubR5zTPW3/FkO1Rat9kb7oQOa4rxgl9LJHc5tspCWfg==",
       "type": "package",
@@ -4905,7 +4922,8 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.0": [
-      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.0"
+      "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.0",
+      "dbup-add-migration >= 1.3.0"
     ]
   },
   "packageFolders": {
@@ -4955,6 +4973,10 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[3.1.0, )"
+          },
+          "dbup-add-migration": {
+            "target": "Package",
+            "version": "[1.3.0, )"
           }
         },
         "imports": [

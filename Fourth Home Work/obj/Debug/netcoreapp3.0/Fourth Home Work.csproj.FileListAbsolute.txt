@@ -1,0 +1,79 @@
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\appsettings.Development.json
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\appsettings.json
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Properties\launchSettings.json
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Fourth Home Work.exe
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Fourth Home Work.deps.json
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Fourth Home Work.runtimeconfig.json
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Fourth Home Work.runtimeconfig.dev.json
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Fourth Home Work.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Fourth Home Work.pdb
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Fourth Home Work.Views.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Fourth Home Work.Views.pdb
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Microsoft.Bcl.HashCode.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Microsoft.Data.SqlClient.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Options.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Microsoft.Extensions.Primitives.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\Microsoft.Identity.Client.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\System.Collections.Immutable.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\System.ComponentModel.Annotations.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\System.Configuration.ConfigurationManager.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\System.Diagnostics.DiagnosticSource.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\System.Runtime.Caching.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\runtimes\win-arm64\native\sni.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\runtimes\win-x64\native\sni.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\runtimes\win-x86\native\sni.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\bin\Debug\netcoreapp3.0\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Fourth Home Work.csprojAssemblyReference.cache
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\staticwebassets\Fourth Home Work.StaticWebAssets.Manifest.cache
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\staticwebassets\Fourth Home Work.StaticWebAssets.xml
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Fourth Home Work.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Fourth Home Work.RazorAssemblyInfo.cache
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Fourth Home Work.RazorAssemblyInfo.cs
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Fourth Home Work.AssemblyInfoInputs.cache
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Fourth Home Work.AssemblyInfo.cs
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Fourth Home Work.TagHelpers.input.cache
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Fourth Home Work.TagHelpers.output.cache
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Fourth Home Work.RazorCoreGenerate.cache
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Fourth Home Work.RazorTargetAssemblyInfo.cache
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Fourth Home Work.RazorTargetAssemblyInfo.cs
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Fourth Home Work.Views.pdb
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Fourth Home Work.csproj.CopyComplete
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Fourth Home Work.dll
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Fourth Home Work.pdb
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Razor\Views\Home\AddNewDirector.cshtml.g.cs
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Razor\Views\Home\AddNewFilm.cshtml.g.cs
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Razor\Views\Home\DeleteDirector.cshtml.g.cs
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Razor\Views\Home\DeleteFilm.cshtml.g.cs
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Razor\Views\Home\DirectorInfo.cshtml.g.cs
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Razor\Views\Home\EditDirector.cshtml.g.cs
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Razor\Views\Home\EditFilm.cshtml.g.cs
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Razor\Views\Home\FilmInfo.cshtml.g.cs
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Razor\Views\Home\Index1.cshtml.g.cs
+C:\Users\karpe\Desktop\Home-Work-Web\Home-Work-Web\Fourth Home Work\obj\Debug\netcoreapp3.0\Razor\Views\Home\Main.cshtml.g.cs

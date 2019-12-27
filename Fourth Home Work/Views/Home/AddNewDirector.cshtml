@@ -1,0 +1,29 @@
+﻿@model IEnumerable<Fourth_Home_Work.Models.Director>
+<h2></h2>
+ 
+<form method="post" class="form-horizontal" role="form">
+    <p>To add new director fill all fields</p>
+    <div class="form-group">
+        <label for="Name" class="col-md-2 control-label">Name:</label>
+        <div class="col-md-4">
+            <input type="text" name="Name" class="form-control" />
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="Age" class="col-md-2 control-label">Type work:</label>
+        <div class="col-md-4">
+            <input type="text" name="Type" class="form-control" />
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-md-offset-2 col-md-10">
+            @using (Html.BeginForm("AddNewDirector", null, FormMethod.Post))
+            {
+                <form action="~/Home/Index1">
+                    <input type="submit" value="Add new Director" />
+                </form>
+            }
+        </div>
+    </div>
+</form>

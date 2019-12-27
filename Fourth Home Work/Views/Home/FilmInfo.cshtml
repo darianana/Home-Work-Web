@@ -1,0 +1,34 @@
+﻿@model IEnumerable<Fourth_Home_Work.Models.Film>
+<!DOCTYPE html>
+ 
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Info about staging</title>
+</head>
+<body>
+<h3>Info about room</h3>
+<table  class="table-condensed" cellpadding="15" cellspacing="15">
+    <tr>
+        <td>Id</td>
+        <td>Name</td>
+        <td>Tickets</td>
+        <td>Type</td>
+        <td>Date</td>
+        <td>Price</td>
+    </tr>
+    <tr>
+        <td>@ViewBag.Film.Id</td>
+        <td>@ViewBag.Film.Name</td>
+        <td>@ViewBag.Film.Tickets</td>
+        <td>@ViewBag.Film.Type</td>
+        <td>@ViewBag.Film.Date</td>
+        <td>@ViewBag.Film.Price</td>
+    </tr>
+</table>
+<form action="~/Home/Index">
+    <input type="submit" value="Go back"/>
+</form>
+
+</body>
+</html>
