@@ -32,9 +32,22 @@ namespace Fifth_HomeWork.Controllers
             }
         }
 
-        public async Task<IActionResult> Index(SortState sortOrder = SortState.NameAsc)
+        public async Task<IActionResult> Index(int? type, string name, int page = 1,
+            SortState sortOrder = SortState.NameAsc)
         {
+            int pageSize = 3;
+            
             IQueryable<Staging> stagings = db.Stagings.Include(x=>x.St_type);
+            //filtrathion
+            if (type != null && type != 0)
+            {
+                stagings = stagings.Where(p => p.TypeId == type);
+            }
+            if (!String.IsNullOrEmpty(name))
+            {
+                stagings = stagings.Where(p => p.Name.Contains(name));
+            }
+            //sorting
             switch (sortOrder)
             {
                 case SortState.NameDesc:
@@ -57,14 +70,52 @@ namespace Fifth_HomeWork.Controllers
                     break;
             }
             
+            //paginathion
+            var count = await stagings.CountAsync();
+            var items = await stagings.Skip((page - 1) * pageSize).Take(pageSize).ToListAsync();
+            
             IndexViewModel viewModel = new IndexViewModel
             {
-                Stagings = await stagings.AsNoTracking().ToListAsync(),
+                PageViewModel = new PageViewModel(count, page, pageSize),
                 SortViewModel = new SortViewModel(sortOrder),
+                FilterViewModel = new FilterViewModel(db.Types.ToList(), type, name),
+                Stagings = items
             };
             return View(viewModel);
         }
+        [HttpGet]
+        public IActionResult AddNew()
+        {
+            return View();
+        }
 
+        [HttpPost]
+        public IActionResult AddNew(string name, string type, int tickets, int price)
+        {
+            var type1 = new St_type
+            {
+                Type = type
+            };
+            
+            var staging = new Staging()
+            {
+                Name = name,
+                St_type = type1,
+                Tickets = tickets,
+                Price = price,
+                CreationDate = DateTime.Now
+            };
+
+            if ((staging.Name == null || staging.Tickets < 0 || staging.Price < 0)|| 
+                ( type1.Type != "Balet" || type1.Type != "Theater" || type1.Type != "Opera"))
+            {
+                return BadRequest();
+            }
+            db.Stagings.Add(staging);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
+        
         /*public async Task<IActionResult> Index()
         {
             return View(await db.Stagings.ToListAsync());

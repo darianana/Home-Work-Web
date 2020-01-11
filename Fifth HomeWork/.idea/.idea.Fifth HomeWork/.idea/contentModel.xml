@@ -17,6 +17,7 @@
           <e p="ErrorViewModel.cs" t="Include" />
           <e p="FilterViewModel.cs" t="Include" />
           <e p="IndexViewModel.cs" t="Include" />
+          <e p="PageViewModel.cs" t="Include" />
           <e p="SortState.cs" t="Include" />
           <e p="SortViewModel.cs" t="Include" />
           <e p="St_type.cs" t="Include" />
@@ -29,6 +30,7 @@
             </e>
           </e>
         </e>
+        <e p="PageLinkTagHelper.cs" t="Include" />
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
@@ -38,6 +40,8 @@
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
           <e p="Home" t="Include">
+            <e p="AddNew.cshtml" t="Include" />
+            <e p="AddNew.cshtml.cs" t="Include" />
             <e p="Index.cshtml" t="Include" />
             <e p="Privacy.cshtml" t="Include" />
           </e>

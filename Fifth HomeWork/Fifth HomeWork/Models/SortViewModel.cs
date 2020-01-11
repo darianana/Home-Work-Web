@@ -4,13 +4,15 @@
     {
         public SortState NameSort { get; private set; } 
         public SortState TicketsSort { get; private set; }  
-        public SortState PriceSort { get; private set; } 
+        public SortState PriceSort { get; private set; }
+        public SortState Current { get; private set; }
 
         public SortViewModel(SortState sortOrder)
         {
             NameSort = sortOrder == SortState.NameAsc ? SortState.NameDesc : SortState.NameAsc;
             TicketsSort = sortOrder == SortState.TicketsAsc ? SortState.TicketsDesc : SortState.TicketsAsc;
             PriceSort = sortOrder == SortState.PriceAsc ? SortState.PriceDesc : SortState.PriceAsc;
+            Current = sortOrder;
         }
     }
 }

@@ -1,5 +1,5 @@
 ﻿namespace Fifth_HomeWork.Models
-{
+{ 
     public enum SortState
     {
         NameAsc,
@@ -9,4 +9,5 @@
         PriceAsc,
         PriceDesc,
     }
+    
 }

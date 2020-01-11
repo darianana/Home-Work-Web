@@ -1,11 +1,11 @@
 ﻿@using Fifth_HomeWork.Models
 @model IndexViewModel
-
+@addTagHelper *, Fifth_HomeWork
 @{
     ViewData["Title"] = "Theater";
 }
-
-<style>
+}
+    <style>
         @@font-face {
             font-family: 'FontAwesome';
             src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2') format('woff2'), 
@@ -30,26 +30,55 @@
         }
     </style>
 
+<h1>Stagings</h1>
+<form method="get">
+    <div class="form-group form-inline">
+        <label>Name staging: </label>
+        <input name="name" value="@Model.FilterViewModel.SelectedName" class="form-control" />
+         
+        <label>Type: </label>
+        <select name="type" asp-items="Model.FilterViewModel.Types" class="form-control"></select>
+ 
+        <input type="submit" value="Search" class="btn btn-outline-dark" />
+    </div>
+</form>
 
 
 <table class="table">
     <tr>
         <th>
             <a asp-action="Index"
-               asp-route-sortOrder="@(Model.SortViewModel.NameSort)">
-                Name Staging
+               asp-route-sortOrder="@(Model.SortViewModel.NameSort)"
+               asp-route-name="@(Model.FilterViewModel.SelectedName)"
+               asp-route-type="@(Model.FilterViewModel.SelectedType)">
+                Name Staging:
             </a>
         </th>
         <th>
             <a asp-action="Index"
-               asp-route-sortOrder="@(Model.SortViewModel.TicketsSort)">
-                 Quantity Tickets
+               asp-route-name="@(Model.FilterViewModel.SelectedName)"
+               asp-route-type="@(Model.FilterViewModel.SelectedType)">
+                Type:
+            </a>            
+        </th>
+        <th>
+            <a asp-action="Index"
+               asp-route-sortOrder="@(Model.SortViewModel.TicketsSort)"
+               asp-route-name="@(Model.FilterViewModel.SelectedName)"
+               asp-route-type="@(Model.FilterViewModel.SelectedType)">
+                Quantity Tickets:
             </a>
         </th>
         <th>
             <a asp-action="Index"
-               asp-route-sortOrder="@(Model.SortViewModel.PriceSort)">
+               asp-route-sortOrder="@(Model.SortViewModel.PriceSort)"
+               asp-route-name="@(Model.FilterViewModel.SelectedName)"
+               asp-route-type="@(Model.FilterViewModel.SelectedType)">
                 Price
+            </a>
+        </th>
+        <th><a>
+                Since adding:  
             </a>
         </th>
     </tr>
@@ -57,7 +86,7 @@
     {
         <tr>
             <td>@u.Name</td>
-            
+            <td>@u.St_type.Type</td>
             <td>@u.Tickets</td>
             <td>@u.Price</td>
             <td>"@($"{u.LifeTime.Days} days, {u.LifeTime.Hours} hours, " +
@@ -65,3 +94,34 @@
         </tr>
     }
 </table>
+
+@if (Model.PageViewModel.HasPreviousPage)
+{
+    <a asp-action="Index"
+       asp-route-page="@(Model.PageViewModel.PageNumber - 1)"
+       asp-route-name="@(Model.FilterViewModel.SelectedName)"
+       asp-route-type="@(Model.FilterViewModel.SelectedType)"
+       asp-route-sortorder="@(Model.SortViewModel.Current)"
+       class="btn  btn-outline-dark">
+        <i class="glyphicon glyphicon-chevron-left"></i>
+        Back
+    </a>
+}
+@if (Model.PageViewModel.HasNextPage)
+{
+    <a asp-action="Index"
+       asp-route-page="@(Model.PageViewModel.PageNumber + 1)"
+       asp-route-name="@(Model.FilterViewModel.SelectedName)"
+       asp-route-type="@(Model.FilterViewModel.SelectedType)"
+       asp-route-sortorder="@(Model.SortViewModel.Current)"
+       class="btn btn-outline-dark">
+        Next
+        <i class="glyphicon glyphicon-chevron-right"></i>
+    </a>
+}
+@using (Html.BeginForm("AddNew", null, FormMethod.Get))
+{
+    <form class="form-control" action="~/Home/Index/AddNewGuest">
+        <input type="submit" value="Add new item" />
+    </form>
+}

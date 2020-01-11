@@ -137,3 +137,4 @@ C:\Users\karpe\Desktop\web\Home-Work-Web\Fifth HomeWork\Fifth HomeWork\obj\Debug
 C:\Users\karpe\Desktop\web\Home-Work-Web\Fifth HomeWork\Fifth HomeWork\obj\Debug\netcoreapp3.0\Fifth HomeWork.csproj.CopyComplete
 C:\Users\karpe\Desktop\web\Home-Work-Web\Fifth HomeWork\Fifth HomeWork\obj\Debug\netcoreapp3.0\Fifth HomeWork.dll
 C:\Users\karpe\Desktop\web\Home-Work-Web\Fifth HomeWork\Fifth HomeWork\obj\Debug\netcoreapp3.0\Fifth HomeWork.pdb
+C:\Users\karpe\Desktop\web\Home-Work-Web\Fifth HomeWork\Fifth HomeWork\obj\Debug\netcoreapp3.0\Razor\Views\Home\AddNew.cshtml.g.cs
