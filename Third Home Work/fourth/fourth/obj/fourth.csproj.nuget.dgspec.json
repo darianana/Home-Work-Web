@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\fourth.csproj": {}
+    "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\fourth.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\fourth.csproj": {
+    "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\fourth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\fourth.csproj",
+        "projectUniqueName": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\fourth.csproj",
         "projectName": "fourth",
-        "projectPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\fourth.csproj",
+        "projectPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\fourth.csproj",
         "packagesPath": "C:\\Users\\karpe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\obj\\",
+        "outputPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet",

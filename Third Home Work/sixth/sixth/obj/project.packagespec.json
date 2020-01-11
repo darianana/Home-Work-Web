@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\sixth\\sixth\\sixth.csproj",
+    "projectUniqueName": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\sixth\\sixth\\sixth.csproj",
     "projectName": "sixth",
-    "projectPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\sixth\\sixth\\sixth.csproj",
-    "outputPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\sixth\\sixth\\obj\\",
+    "projectPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\sixth\\sixth\\sixth.csproj",
+    "outputPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\sixth\\sixth\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Microsoft\\Xamarin\\NuGet",

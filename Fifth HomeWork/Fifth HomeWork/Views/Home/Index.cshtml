@@ -1,0 +1,13 @@
+﻿@model IEnumerable<Fifth_HomeWork.Models.Staging>
+@{
+    ViewData["Title"] = "Theater";
+}
+
+<a asp-action="Create">Add stagings</a>
+<table class="table">
+    <tr><td>Name</td> <td>Type</td> <td>Quantity tickets</td> <td>Price</td> </tr>
+    @foreach (var item in Model)
+    {
+        <tr><td>@item.Name</td><td>@item.Type</td><td>@item.Tickets</td><td>@item.Price</td></tr>
+    }
+</table>

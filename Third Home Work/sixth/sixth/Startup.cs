@@ -22,7 +22,7 @@ namespace sixth
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             app.UseStaticFiles(); // добавляем поддержку статических файлов
-
+            //доступ по Index.html
             app.Run(async (context) => { await context.Response.WriteAsync("Hello World"); });
         }
     }

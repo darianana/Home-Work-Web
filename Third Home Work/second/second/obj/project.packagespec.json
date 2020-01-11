@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\second\\second\\second.csproj",
+    "projectUniqueName": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\second\\second\\second.csproj",
     "projectName": "second",
-    "projectPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\second\\second\\second.csproj",
-    "outputPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\second\\second\\obj\\",
+    "projectPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\second\\second\\second.csproj",
+    "outputPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\second\\second\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Microsoft\\Xamarin\\NuGet",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\first\\first\\first.csproj": {}
+    "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\first\\first\\first.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\first\\first\\first.csproj": {
+    "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\first\\first\\first.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\first\\first\\first.csproj",
+        "projectUniqueName": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\first\\first\\first.csproj",
         "projectName": "first",
-        "projectPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\first\\first\\first.csproj",
+        "projectPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\first\\first\\first.csproj",
         "packagesPath": "C:\\Users\\karpe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Third Home Work\\first\\first\\obj\\",
+        "outputPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\first\\first\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet",
