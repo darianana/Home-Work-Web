@@ -1,13 +1,67 @@
-﻿@model IEnumerable<Fifth_HomeWork.Models.Staging>
+﻿@using Fifth_HomeWork.Models
+@model IndexViewModel
+
 @{
     ViewData["Title"] = "Theater";
 }
 
-<a asp-action="Create">Add stagings</a>
+<style>
+        @@font-face {
+            font-family: 'FontAwesome';
+            src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2') format('woff2'), 
+            url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff') format('woff'), 
+            url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal
+        }
+        .glyphicon {
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: inherit;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale
+        }
+        .glyphicon-chevron-right:before {
+            content: "\f054";
+        }
+        .glyphicon-chevron-left:before {
+            content: "\f053";
+        }
+    </style>
+
+
+
 <table class="table">
-    <tr><td>Name</td> <td>Type</td> <td>Quantity tickets</td> <td>Price</td> </tr>
-    @foreach (var item in Model)
+    <tr>
+        <th>
+            <a asp-action="Index"
+               asp-route-sortOrder="@(Model.SortViewModel.NameSort)">
+                Name Staging
+            </a>
+        </th>
+        <th>
+            <a asp-action="Index"
+               asp-route-sortOrder="@(Model.SortViewModel.TicketsSort)">
+                 Quantity Tickets
+            </a>
+        </th>
+        <th>
+            <a asp-action="Index"
+               asp-route-sortOrder="@(Model.SortViewModel.PriceSort)">
+                Price
+            </a>
+        </th>
+    </tr>
+    @foreach (Staging u in Model.Stagings)
     {
-        <tr><td>@item.Name</td><td>@item.Type</td><td>@item.Tickets</td><td>@item.Price</td></tr>
+        <tr>
+            <td>@u.Name</td>
+            
+            <td>@u.Tickets</td>
+            <td>@u.Price</td>
+            <td>"@($"{u.LifeTime.Days} days, {u.LifeTime.Hours} hours, " +
+                   $"{u.LifeTime.Minutes} minutes, {u.LifeTime.Seconds} seconds");</td>            
+        </tr>
     }
 </table>
