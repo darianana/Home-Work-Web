@@ -1,23 +1,20 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82a48be5-e8f1-47fb-bb19-2191bbebae4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/.vs/Fifth HomeWork/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/.vs/Fifth HomeWork/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/.vs/slnx.sqlite" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/Controllers/HomeController.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/Models/Staging.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/Models/Staging.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/Views/Home/AddNew.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/Views/Home/AddNew.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/Views/Home/Index.cshtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/bin/Debug/netcoreapp3.0/Fifth HomeWork.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/bin/Debug/netcoreapp3.0/Fifth HomeWork.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/bin/Debug/netcoreapp3.0/Fifth HomeWork.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/bin/Debug/netcoreapp3.0/Fifth HomeWork.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/bin/Debug/netcoreapp3.0/Fifth HomeWork.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/bin/Debug/netcoreapp3.0/Fifth HomeWork.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/bin/Debug/netcoreapp3.0/Fifth HomeWork.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/bin/Debug/netcoreapp3.0/Fifth HomeWork.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Fifth HomeWork.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Fifth HomeWork.Views.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Fifth HomeWork.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Fifth HomeWork.Views.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Fifth HomeWork.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Fifth HomeWork.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Fifth HomeWork.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Fifth HomeWork.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Razor/Views/Home/AddNew.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Razor/Views/Home/AddNew.cshtml.g.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seventh HomeWork/.idea/.idea.Seventh HomeWork/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seventh HomeWork/.idea/.idea.Seventh HomeWork/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/Seventh HomeWork.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/Seventh HomeWork.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/Debug/netcoreapp3.0/Seventh HomeWork.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/Debug/netcoreapp3.0/Seventh HomeWork.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/Seventh HomeWork.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/Seventh HomeWork.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/Seventh HomeWork.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/Seventh HomeWork.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyEntity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyEntity/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/MyEntity/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MyEntity/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/obj/Debug/netcoreapp3.0/MyEntity.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/obj/Debug/netcoreapp3.0/MyEntity.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/obj/Release/netcoreapp3.0/MyEntity.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/obj/Release/netcoreapp3.0/MyEntity.csprojAssemblyReference.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -100,20 +97,23 @@
       <option name="presentableId" value="Default" />
       <updated>1579760736460</updated>
       <workItem from="1579760740222" duration="1863000" />
+      <workItem from="1579782999355" duration="758000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
