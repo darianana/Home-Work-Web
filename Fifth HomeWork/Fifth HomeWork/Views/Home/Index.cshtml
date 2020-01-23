@@ -90,7 +90,7 @@
             <td>@u.Tickets</td>
             <td>@u.Price</td>
             <td>"@($"{u.LifeTime.Days} days, {u.LifeTime.Hours} hours, " +
-                   $"{u.LifeTime.Minutes} minutes, {u.LifeTime.Seconds} seconds");</td>            
+                   $"{u.LifeTime.Minutes} minutes, {u.LifeTime.Seconds} seconds");</td>
         </tr>
     }
 </table>
@@ -122,6 +122,6 @@
 @using (Html.BeginForm("AddNew", null, FormMethod.Get))
 {
     <form class="form-control" action="~/Home/Index/AddNewGuest">
-        <input type="submit" value="Add new item" />
+        <input type="submit" value="Add new item" class="btn btn-outline-dark"/>
     </form>
 }

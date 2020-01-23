@@ -1,0 +1,45 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\Users\\karpe\\Desktop\\web\\Home-Work-Web\\Seventh HomeWork\\Seventh HomeWork\\Seventh HomeWork.csproj",
+    "projectName": "Seventh HomeWork",
+    "projectPath": "C:\\Users\\karpe\\Desktop\\web\\Home-Work-Web\\Seventh HomeWork\\Seventh HomeWork\\Seventh HomeWork.csproj",
+    "outputPath": "C:\\Users\\karpe\\Desktop\\web\\Home-Work-Web\\Seventh HomeWork\\Seventh HomeWork\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Microsoft\\Xamarin\\NuGet",
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "netcoreapp3.0"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "netcoreapp3.0": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "netcoreapp3.0": {
+      "imports": [
+        "net461",
+        "net462",
+        "net47",
+        "net471",
+        "net472",
+        "net48"
+      ],
+      "assetTargetFallback": true,
+      "warn": true
+    }
+  }
+}

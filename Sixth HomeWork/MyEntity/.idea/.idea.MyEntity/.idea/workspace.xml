@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="82a48be5-e8f1-47fb-bb19-2191bbebae4a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/.vs/Fifth HomeWork/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/.vs/Fifth HomeWork/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/Controllers/HomeController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/Controllers/HomeController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/Models/Staging.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/Models/Staging.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/Views/Home/AddNew.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/Views/Home/AddNew.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/Views/Home/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/Views/Home/Index.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/bin/Debug/netcoreapp3.0/Fifth HomeWork.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/bin/Debug/netcoreapp3.0/Fifth HomeWork.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/bin/Debug/netcoreapp3.0/Fifth HomeWork.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/bin/Debug/netcoreapp3.0/Fifth HomeWork.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/bin/Debug/netcoreapp3.0/Fifth HomeWork.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/bin/Debug/netcoreapp3.0/Fifth HomeWork.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/bin/Debug/netcoreapp3.0/Fifth HomeWork.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/bin/Debug/netcoreapp3.0/Fifth HomeWork.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Fifth HomeWork.Views.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Fifth HomeWork.Views.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Fifth HomeWork.Views.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Fifth HomeWork.Views.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Fifth HomeWork.dll" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Fifth HomeWork.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Fifth HomeWork.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Fifth HomeWork.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Razor/Views/Home/AddNew.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Razor/Views/Home/AddNew.cshtml.g.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fifth HomeWork/Fifth HomeWork/obj/Debug/netcoreapp3.0/Razor/Views/Home/Index.cshtml.g.cs" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/MyEntity/ApplicationContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyEntity/St_type.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyEntity/Staging.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyEntity/Program.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MyEntity/Staging.cs" />
+        <option value="$PROJECT_DIR$/MyEntity/St_type.cs" />
+        <option value="$PROJECT_DIR$/MyEntity/ApplicationContext.cs" />
+        <option value="$PROJECT_DIR$/MyEntity/Program.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1WmhZuSV6MsZ4vPjFyXJRqsVXFM" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/MyEntity/bin/Debug/netcoreapp3.0/MyEntity.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/MyEntity/bin/Debug/netcoreapp3.0" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="USE_MONO" value="0" />
+      <option name="RUNTIME_ARGUMENTS" value="" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/MyEntity/MyEntity.csproj" />
+      <option name="PROJECT_EXE_PATH_TRACKING" value="1" />
+      <option name="PROJECT_ARGUMENTS_TRACKING" value="1" />
+      <option name="PROJECT_WORKING_DIRECTORY_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v3.0" />
+      <method v="2">
+        <option name="Build" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="82a48be5-e8f1-47fb-bb19-2191bbebae4a" name="Default Changelist" comment="" />
+      <created>1579760736460</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579760736460</updated>
+      <workItem from="1579760740222" duration="1863000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

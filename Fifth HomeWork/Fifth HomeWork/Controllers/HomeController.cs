@@ -19,12 +19,12 @@ namespace Fifth_HomeWork.Controllers
                 St_type theater = new St_type{Type = "Theater"};
                 St_type opera = new St_type{Type = "Opera"};
                 
-                Staging staging1 = new Staging {Name = "Three masks of the king", St_type = opera, Tickets = 100, Price = 1700, CreationDate = DateTime.Now};
-                Staging staging2 = new Staging {Name = "Prince Vladimir", St_type = balet, Tickets = 100, Price = 1900, CreationDate = DateTime.Now};
-                Staging staging3 = new Staging {Name = "The Wedding of Figaro", St_type = opera, Tickets = 100, Price = 1500, CreationDate = DateTime.Now};
-                Staging staging4 = new Staging {Name = "Aida", St_type = theater, Tickets = 100, Price = 1700, CreationDate = DateTime.Now};
-                Staging staging5 = new Staging {Name = "Anna Karenina", St_type = theater, Tickets = 100, Price = 2000, CreationDate = DateTime.Now};
-                Staging staging6 = new Staging {Name = "Swan Lake", St_type = balet, Tickets = 100, Price = 2000, CreationDate = DateTime.Now};   
+                Staging staging1 = new Staging {Name = "Three masks of the king", Tickets = 100, Price = 1700, St_type = opera, CreationDate = DateTime.Now};
+                Staging staging2 = new Staging {Name = "Prince Vladimir", Tickets = 100, Price = 1900, St_type = balet, CreationDate = DateTime.Now};
+                Staging staging3 = new Staging {Name = "The Wedding of Figaro", Tickets = 100, Price = 1500, St_type = opera, CreationDate = DateTime.Now};
+                Staging staging4 = new Staging {Name = "Aida", Tickets = 100, Price = 1700, St_type = theater, CreationDate = DateTime.Now};
+                Staging staging5 = new Staging {Name = "Anna Karenina", Tickets = 100, Price = 2000, St_type = theater, CreationDate = DateTime.Now};
+                Staging staging6 = new Staging {Name = "Swan Lake", Tickets = 100, Price = 2000, St_type = balet, CreationDate = DateTime.Now};   
                 
                 db.Types.AddRange(balet, theater, opera);
                 db.Stagings.AddRange(staging1, staging2, staging3, staging4, staging5, staging6);
@@ -41,7 +41,7 @@ namespace Fifth_HomeWork.Controllers
             //filtrathion
             if (type != null && type != 0)
             {
-                stagings = stagings.Where(p => p.TypeId == type);
+                stagings = stagings.Where(p => p.St_typeId == type);
             }
             if (!String.IsNullOrEmpty(name))
             {

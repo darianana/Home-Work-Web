@@ -6,12 +6,13 @@ namespace Fifth_HomeWork.Models
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public int TypeId { get; set; }
-        public St_type St_type { get; set; }
         public int Tickets { get; set; }
         public int Price { get; set; } 
-        public DateTime CreationDate { get; set; }
         
+        public int St_typeId { get; set; } 
+        public St_type St_type { get; set; }
+        
+        public DateTime CreationDate { get; set; }
         public TimeSpan LifeTime
         {
             get
