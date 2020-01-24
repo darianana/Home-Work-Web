@@ -8,6 +8,7 @@ namespace MyEntity
             public DbSet<Staging> Stagings { get; set; }
             public ApplicationContext()
             {
+                Database.EnsureDeleted();
                 Database.EnsureCreated();
             }
 

@@ -2,21 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="82a48be5-e8f1-47fb-bb19-2191bbebae4a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Seventh HomeWork/.idea/.idea.Seventh HomeWork/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seventh HomeWork/.idea/.idea.Seventh HomeWork/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/Seventh HomeWork.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/Seventh HomeWork.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/Debug/netcoreapp3.0/Seventh HomeWork.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/Debug/netcoreapp3.0/Seventh HomeWork.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/Seventh HomeWork.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/Seventh HomeWork.csproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/Seventh HomeWork.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/Seventh HomeWork.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Seventh HomeWork/Seventh HomeWork/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fourth Home Work/.idea/.idea.Fourth Home Work.dir/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fourth Home Work/.idea/.idea.Fourth Home Work.dir/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fourth Home Work/obj/Debug/netcoreapp3.0/Fourth Home Work.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fourth Home Work/obj/Debug/netcoreapp3.0/Fourth Home Work.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fourth Home Work/obj/Fourth Home Work.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fourth Home Work/obj/Fourth Home Work.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fourth Home Work/obj/Fourth Home Work.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fourth Home Work/obj/Fourth Home Work.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fourth Home Work/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fourth Home Work/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Fourth Home Work/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Fourth Home Work/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyEntity/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyEntity/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.MyEntity/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyEntity/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/MyEntity/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/MyEntity/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/VSWorkspaceState.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.vs/slnx.sqlite" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/slnx.sqlite" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/ApplicationContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/ApplicationContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/MyEntity.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/MyEntity.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/bin/Debug/netcoreapp3.0/MyEntity.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/bin/Debug/netcoreapp3.0/MyEntity.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/bin/Debug/netcoreapp3.0/MyEntity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/bin/Debug/netcoreapp3.0/MyEntity.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/bin/Debug/netcoreapp3.0/MyEntity.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/bin/Debug/netcoreapp3.0/MyEntity.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/bin/Debug/netcoreapp3.0/MyEntity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/bin/Debug/netcoreapp3.0/MyEntity.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/obj/Debug/netcoreapp3.0/MyEntity.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/obj/Debug/netcoreapp3.0/MyEntity.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyEntity/obj/Debug/netcoreapp3.0/MyEntity.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/obj/Debug/netcoreapp3.0/MyEntity.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/obj/Debug/netcoreapp3.0/MyEntity.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/obj/Debug/netcoreapp3.0/MyEntity.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/obj/Debug/netcoreapp3.0/MyEntity.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/obj/Debug/netcoreapp3.0/MyEntity.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/obj/Debug/netcoreapp3.0/MyEntity.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/obj/Debug/netcoreapp3.0/MyEntity.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/obj/MyEntity.csproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/obj/MyEntity.csproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/obj/MyEntity.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/obj/MyEntity.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/obj/MyEntity.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/obj/MyEntity.csproj.nuget.g.props" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/obj/MyEntity.csproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/obj/MyEntity.csproj.nuget.g.targets" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/obj/Release/netcoreapp3.0/MyEntity.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/obj/Release/netcoreapp3.0/MyEntity.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MyEntity/obj/Release/netcoreapp3.0/MyEntity.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/obj/Release/netcoreapp3.0/MyEntity.csprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyEntity/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyEntity/obj/project.packagespec.json" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,9 +40,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="file://$PROJECT_DIR$/MyEntity/ApplicationContext.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/MyEntity/St_type.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyEntity/Staging.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyEntity/St_type.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/MyEntity/ApplicationContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/MyEntity/Program.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -43,9 +57,16 @@
   </component>
   <component name="ProjectId" id="1WmhZuSV6MsZ4vPjFyXJRqsVXFM" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="TWShift.4" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -53,18 +74,6 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
   </component>
   <component name="RunManager">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
@@ -86,6 +95,18 @@
       </method>
     </configuration>
   </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -98,6 +119,10 @@
       <updated>1579760736460</updated>
       <workItem from="1579760740222" duration="1863000" />
       <workItem from="1579782999355" duration="758000" />
+      <workItem from="1579789022281" duration="195000" />
+      <workItem from="1579789271173" duration="62000" />
+      <workItem from="1579791226501" duration="96000" />
+      <workItem from="1579835589563" duration="765000" />
     </task>
     <servers />
   </component>
@@ -119,8 +144,23 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  <component name="WindowStateProjectService">
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom" timestamp="1579836486153">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1579836486153" />
+    <state width="1493" height="195" key="GridCell.Tab.0.center" timestamp="1579836486153">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1579836486153" />
+    <state width="1493" height="195" key="GridCell.Tab.0.left" timestamp="1579836486153">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1579836486153" />
+    <state width="1493" height="195" key="GridCell.Tab.0.right" timestamp="1579836486153">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state width="1493" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1579836486153" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

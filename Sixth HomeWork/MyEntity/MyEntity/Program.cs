@@ -21,16 +21,10 @@ namespace MyEntity
                 Staging staging6 = new Staging {Name = "Swan Lake", St_type = balet, Tickets = 100, Price = 2000};
  
                 // добавляем их в бд
-                db.Types.Add(balet);
-                db.Types.Add(theater);
-                db.Types.Add(opera);
-                db.Stagings.Add(staging1);
-                db.Stagings.Add(staging2);
-                db.Stagings.Add(staging3);
-                db.Stagings.Add(staging4);
-                db.Stagings.Add(staging5);
-                db.Stagings.Add(staging6);
+                db.Types.AddRange(balet, theater, opera);
                 
+                db.Stagings.AddRange(staging1, staging2, staging3, staging4, staging5, staging6);
+
                 db.SaveChanges();
                 Console.WriteLine("Объекты успешно сохранены");
  
@@ -39,7 +33,7 @@ namespace MyEntity
                 Console.WriteLine("Список объектов:");
                 foreach (Staging u in stagings)
                 {
-                    Console.WriteLine($"{u.Id}.{u.Name}");
+                    Console.WriteLine($"{u.Id}){u.Name} - {u.St_type.Type} |||||| Price - {u.Price} |||||| Quantity free place - {u.Tickets}");
                 }
             }
             Console.Read();

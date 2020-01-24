@@ -1,10 +1,10 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Fourth Home Work\\Fourth Home Work.csproj",
+    "projectUniqueName": "C:\\Users\\karpe\\Desktop\\web\\Home-Work-Web\\Fourth Home Work\\Fourth Home Work.csproj",
     "projectName": "Fourth Home Work",
-    "projectPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Fourth Home Work\\Fourth Home Work.csproj",
-    "outputPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Fourth Home Work\\obj\\",
+    "projectPath": "C:\\Users\\karpe\\Desktop\\web\\Home-Work-Web\\Fourth Home Work\\Fourth Home Work.csproj",
+    "outputPath": "C:\\Users\\karpe\\Desktop\\web\\Home-Work-Web\\Fourth Home Work\\obj\\",
     "projectStyle": "PackageReference",
     "fallbackFolders": [
       "C:\\Microsoft\\Xamarin\\NuGet",
