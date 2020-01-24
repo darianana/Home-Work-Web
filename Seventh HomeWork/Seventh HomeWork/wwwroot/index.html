@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Добавить:</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.0/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <h2>Список постановок</h2>
+    <form name="stagingForm">
+        <input type="hidden" name="id" value="0" />
+        <div class="form-group col-md-5">
+            <label for="name">Название:</label>
+            <input class="form-control" name="name" />
+        </div>
+        <div class="form-group col-md-5">
+            <label for="tickets">Кол-во билетов:</label>
+            <input class="form-control" name="tickets" type="number" />
+        </div>
+        <div class="form-group col-md-5">
+            <label for="price">Цена:</label>
+            <input class="form-control" name="price" type="number" />
+        </div>
+        <div class="panel-body">
+            <button type="submit" id="submit" class="btn btn-primary">Сохранить</button>
+            
+        </div>
+    </form>
+    <table class="table table-condensed table-striped  col-md-6">
+        <thead><tr><th>Id</th><th>Название</th><th>Кол-во билетов</th><th>Цена</th><th></th></tr></thead>
+        <tbody>
+        </tbody>
+    </table>
+    <div>2020 © Darianana.com</div>
+    <script>
+        // Получение всех пользователей
+        async function GetStagings() {
+            // отправляет запрос и получаем ответ
+            const response = await fetch("/api/stagings", {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            // если запрос прошел нормально
+            if (response.ok === true) {
+                // получаем данные
+                const stagings = await response.json();
+                let rows = document.querySelector("tbody");
+                stagings.forEach(staging => {
+                    // добавляем полученные элементы в таблицу
+                    rows.append(row(staging));
+                });
+            }
+        }
+        // Получение одного пользователя
+        async function GetStaging(id) {
+            const response = await fetch("/api/stagings/" + id, {
+                method: "GET",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const staging = await response.json();
+                const form = document.forms["stagingForm"];
+                form.elements["id"].value = staging.id;
+                form.elements["name"].value = staging.name;
+                form.elements["tickets"].value = staging.tickets;
+                form.elements["price"].value = staging.price;
+            }
+        }
+        // Добавление пользователя
+        async function CreateStaging(stagingName, stagingTickets, stagingPrice) {
+
+            const response = await fetch("api/stagings", {
+                method: "POST",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    name: stagingName,
+                    tickets: parseInt(stagingTickets, 10),
+                    price: parseInt(stagingPrice, 10)
+                })
+            });
+            if (response.ok === true) {
+                const staging = await response.json();
+                reset();
+                document.querySelector("tbody").append(row(staging));
+            }
+        }
+        // Изменение пользователя
+        async function EditStaging(stagingId,stagingName, stagingTickets, stagingPrice) {
+            const response = await fetch("api/stagings", {
+                method: "PUT",
+                headers: { "Accept": "application/json", "Content-Type": "application/json" },
+                body: JSON.stringify({
+                    id: parseInt(stagingId, 10),
+                    name: stagingName,
+                    tickets: parseInt(stagingTickets, 10),
+                    price: parseInt(stagingPrice, 10)
+                })
+            });
+            if (response.ok === true) {
+                const staging = await response.json();
+                reset();
+                document.querySelector("tr[data-rowid='" + staging.id + "']").replaceWith(row(staging));
+            }
+        }
+        // Удаление пользователя
+        async function DeleteStaging(id) {
+            const response = await fetch("/api/stagings/" + id, {
+                method: "DELETE",
+                headers: { "Accept": "application/json" }
+            });
+            if (response.ok === true) {
+                const staging = await response.json();
+                document.querySelector("tr[data-rowid='" + staging.id + "']").remove();
+            }
+        }
+
+        // сброс формы
+        function reset() {
+            const form = document.forms["stagingForm"];
+            form.reset();
+            form.elements["id"].value = 0;
+        }
+        // создание строки для таблицы
+        function row(staging) {
+
+            const tr = document.createElement("tr");
+            tr.setAttribute("data-rowid", staging.id);
+
+            const idTd = document.createElement("td");
+            idTd.append(staging.id);
+            tr.append(idTd);
+
+            const nameTd = document.createElement("td");
+            nameTd.append(staging.name);
+            tr.append(nameTd);
+
+            const ticketsTd = document.createElement("td");
+            ticketsTd.append(staging.tickets);
+            tr.append(ticketsTd);
+
+            const priceTd = document.createElement("td");
+            priceTd.append(staging.price);
+            tr.append(priceTd);
+
+            const linksTd = document.createElement("td");
+
+            const editLink = document.createElement("a");
+            editLink.setAttribute("data-id", staging.id);
+            editLink.setAttribute("style", "cursor:pointer;padding:15px;");
+            editLink.append("Изменить");
+            editLink.addEventListener("click", e => {
+
+                e.preventDefault();
+                GetStaging(staging.id);
+            });
+            linksTd.append(editLink);
+
+            const removeLink = document.createElement("a");
+            removeLink.setAttribute("data-id", staging.id);
+            removeLink.setAttribute("style", "cursor:pointer;padding:15px;");
+            removeLink.append("Удалить");
+            removeLink.addEventListener("click", e => {
+
+                e.preventDefault();
+                DeleteStaging(staging.id);
+            });
+
+            linksTd.append(removeLink);
+            tr.appendChild(linksTd);
+
+            return tr;
+        }
+        // сброс значений формы
+
+
+        // отправка формы
+        document.forms["stagingForm"].addEventListener("submit", e => {
+            e.preventDefault();
+            const form = document.forms["stagingForm"];
+            const id = form.elements["id"].value;
+            const name = form.elements["name"].value;
+            const tickets = form.elements["tickets"].value;
+            const price = form.elements["price"].value;
+            if (id == 0)
+                CreateStaging(name, tickets, price);
+            else
+                EditStaging(id, name, tickets, price);
+        });
+
+        // загрузка пользователей
+        GetStagings();
+
+    </script>
+</body>
+</html>
