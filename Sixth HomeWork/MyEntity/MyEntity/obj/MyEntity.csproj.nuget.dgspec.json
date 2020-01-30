@@ -14,7 +14,7 @@
         "outputPath": "C:\\Users\\karpe\\Desktop\\web\\Home-Work-Web\\Sixth HomeWork\\MyEntity\\MyEntity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
@@ -52,7 +52,6 @@
               "version": "[3.1.1, )"
             },
             "Microsoft.NETCore.App": {
-              "suppressParent": "All",
               "target": "Package",
               "version": "[2.2.8, )"
             },

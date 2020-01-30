@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Compile Remove="Migrations\20200130051144_StartDataBase.cs" />
+      <Compile Remove="Migrations\20200130051144_StartDataBase.Designer.cs" />
+      <Compile Remove="Migrations\20200130053422_ChangesTheater.cs" />
+      <Compile Remove="Migrations\20200130053422_ChangesTheater.Designer.cs" />
+      <Compile Remove="Migrations\20200130053854_AddDataBase.cs" />
+      <Compile Remove="Migrations\20200130053854_AddDataBase.Designer.cs" />
+      <Compile Remove="Migrations\20200130054741_AddDataBase.cs" />
+      <Compile Remove="Migrations\20200130054741_AddDataBase.Designer.cs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.6" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.1" />
+    </ItemGroup>
+
+
+</Project>

@@ -13,5 +13,6 @@ namespace MyEntity_6_2.Models
         public virtual St_type St_type { get; set; }
         public int Tickets { get; set; }
         public int Price { get; set; }
+        public string Location { get; set; }
     }
 }

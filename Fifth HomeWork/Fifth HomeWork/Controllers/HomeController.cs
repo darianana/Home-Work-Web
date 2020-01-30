@@ -106,8 +106,7 @@ namespace Fifth_HomeWork.Controllers
                 CreationDate = DateTime.Now
             };
 
-            if ((staging.Name == null || staging.Tickets < 0 || staging.Price < 0)|| 
-                ( type1.Type != "Balet" || type1.Type != "Theater" || type1.Type != "Opera"))
+            if (staging.Name == null && staging.Tickets < 0 && staging.Price < 0)
             {
                 return BadRequest();
             }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\fourth.csproj": {}
+    "C:\\Users\\karpe\\Desktop\\web\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\fourth.csproj": {}
   },
   "projects": {
-    "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\fourth.csproj": {
+    "C:\\Users\\karpe\\Desktop\\web\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\fourth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\fourth.csproj",
+        "projectUniqueName": "C:\\Users\\karpe\\Desktop\\web\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\fourth.csproj",
         "projectName": "fourth",
-        "projectPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\fourth.csproj",
+        "projectPath": "C:\\Users\\karpe\\Desktop\\web\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\fourth.csproj",
         "packagesPath": "C:\\Users\\karpe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\karpe\\Desktop\\Home-Work-Web\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\obj\\",
+        "outputPath": "C:\\Users\\karpe\\Desktop\\web\\Home-Work-Web\\Third Home Work\\fourth\\fourth\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet",
@@ -51,7 +51,34 @@
             "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.0.1, 3.0.1]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.0.2, 3.0.2]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.0.0, 3.0.0]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
