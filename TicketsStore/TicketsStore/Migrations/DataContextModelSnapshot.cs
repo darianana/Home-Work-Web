@@ -47,6 +47,9 @@ namespace TicketsStore.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int>("Price")
+                        .HasColumnType("int");
+
                     b.Property<DateTime>("StartTime")
                         .HasColumnType("datetime2");
 
@@ -57,7 +60,7 @@ namespace TicketsStore.Migrations
 
                     b.HasIndex("TheaterId");
 
-                    b.ToTable("Movies");
+                    b.ToTable("Stagings");
                 });
 
             modelBuilder.Entity("TicketsStore.Models.Theater", b =>

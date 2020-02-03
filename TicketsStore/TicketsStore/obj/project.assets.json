@@ -6803,7 +6803,7 @@
   },
   "packageFolders": {
     "C:\\Users\\karpe\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
@@ -6816,7 +6816,7 @@
       "outputPath": "C:\\Users\\karpe\\Desktop\\web\\Home-Work-Web\\TicketsStore\\TicketsStore\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Microsoft\\Xamarin\\NuGet",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [

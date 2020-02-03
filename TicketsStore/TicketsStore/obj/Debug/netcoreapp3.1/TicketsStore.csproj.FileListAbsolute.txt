@@ -66,3 +66,7 @@ C:\Users\karpe\Desktop\web\Home-Work-Web\TicketsStore\TicketsStore\obj\Debug\net
 C:\Users\karpe\Desktop\web\Home-Work-Web\TicketsStore\TicketsStore\obj\Debug\netcoreapp3.1\TicketsStore.Views.pdb
 C:\Users\karpe\Desktop\web\Home-Work-Web\TicketsStore\TicketsStore\obj\Debug\netcoreapp3.1\TicketsStore.dll
 C:\Users\karpe\Desktop\web\Home-Work-Web\TicketsStore\TicketsStore\obj\Debug\netcoreapp3.1\TicketsStore.pdb
+C:\Users\karpe\Desktop\web\Home-Work-Web\TicketsStore\TicketsStore\obj\Debug\netcoreapp3.1\Razor\Views\Home\AddNew.cshtml.g.cs
+C:\Users\karpe\Desktop\web\Home-Work-Web\TicketsStore\TicketsStore\obj\Debug\netcoreapp3.1\Razor\Views\Staging\AddNew.cshtml.g.cs
+C:\Users\karpe\Desktop\web\Home-Work-Web\TicketsStore\TicketsStore\obj\Debug\netcoreapp3.1\Razor\Views\Staging\Index.cshtml.g.cs
+C:\Users\karpe\Desktop\web\Home-Work-Web\TicketsStore\TicketsStore\obj\Debug\netcoreapp3.1\Razor\Views\Staging\test.cshtml.g.cs

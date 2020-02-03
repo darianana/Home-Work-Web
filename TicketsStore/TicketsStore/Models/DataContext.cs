@@ -10,7 +10,7 @@ namespace TicketsStore.Models
     public class DataContext : DbContext
     {
         public DbSet<Theater> Theaters { get; set; }
-        public DbSet<Staging> Movies { get; set; }
+        public DbSet<Staging> Stagings { get; set; }
         public DbSet<User> Users { get; set; }
         public DbSet<Bucket> Buckets{ get; set; }
 

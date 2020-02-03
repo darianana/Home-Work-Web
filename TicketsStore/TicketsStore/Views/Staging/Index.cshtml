@@ -1,0 +1,113 @@
+﻿@page
+@using TicketsStore.Models
+@model IndexViewModel
+@addTagHelper *, TicketsStore
+@{
+    ViewData["Title"] = "Theater";
+}
+
+<style>
+        @@font-face {
+            font-family: 'FontAwesome';
+            src: url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff2') format('woff2'), 
+            url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/fonts/fontawesome-webfont.woff') format('woff'), 
+            url('https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/fonts/fontawesome-webfont.ttf') format('truetype');
+            font-weight: normal;
+            font-style: normal
+        }
+        .glyphicon {
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: inherit;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale
+        }
+        .glyphicon-chevron-right:before {
+            content: "\f054";
+        }
+        .glyphicon-chevron-left:before {
+            content: "\f053";
+        }
+    </style>
+
+<h1>Stagings</h1>
+<form method="get">
+    <div class="form-group form-inline">
+        <label>Name staging: </label>
+        <input name="name" value="@Model.FilterViewModel.SelectedName" class="form-control" />
+         
+        <label>Theater: </label>
+        <select name="type" asp-items="Model.FilterViewModel.Theaters" class="form-control"></select>
+ 
+        <input type="submit" value="Search" class="btn btn-outline-dark" />
+    </div>
+</form>
+
+
+<table class="table">
+    <tr>
+        <th>
+            <a asp-action="Index"
+               asp-route-sortOrder="@(Model.SortViewModel.NameSort)"
+               asp-route-name="@(Model.FilterViewModel.SelectedName)"
+               asp-route-type="@(Model.FilterViewModel.SelectedTheater)">
+                Name Staging:
+            </a>
+        </th>
+        <th>
+            <a asp-action="Index"
+               asp-route-name="@(Model.FilterViewModel.SelectedName)"
+               asp-route-type="@(Model.FilterViewModel.SelectedTheater)">
+                Theater:
+            </a>            
+        </th>
+        <th>
+            <a asp-action="Index"
+               asp-route-sortOrder="@(Model.SortViewModel.PriceSort)"
+               asp-route-name="@(Model.FilterViewModel.SelectedName)"
+               asp-route-type="@(Model.FilterViewModel.SelectedTheater)">
+                Price:
+            </a>
+        </th>
+    </tr>
+    @foreach (Staging u in Model.Stagings)
+    {
+        <tr>
+            <td>@u.Name</td>
+            <td>@u.Theater.Name</td>
+            <td>@u.Price</td>
+        </tr>
+    }
+</table>
+
+@if (Model.PageViewModel.HasPreviousPage)
+{
+    <a asp-action="Index"
+       asp-route-page="@(Model.PageViewModel.PageNumber - 1)"
+       asp-route-name="@(Model.FilterViewModel.SelectedName)"
+       asp-route-type="@(Model.FilterViewModel.SelectedTheater)"
+       asp-route-sortorder="@(Model.SortViewModel.Current)"
+       class="btn  btn-outline-dark">
+        <i class="glyphicon glyphicon-chevron-left"></i>
+        Back
+    </a>
+}
+@if (Model.PageViewModel.HasNextPage)
+{
+    <a asp-action="Index"
+       asp-route-page="@(Model.PageViewModel.PageNumber + 1)"
+       asp-route-name="@(Model.FilterViewModel.SelectedName)"
+       asp-route-type="@(Model.FilterViewModel.SelectedTheater)"
+       asp-route-sortorder="@(Model.SortViewModel.Current)"
+       class="btn btn-outline-dark">
+        Next
+        <i class="glyphicon glyphicon-chevron-right"></i>
+    </a>
+}
+@using (Html.BeginForm("AddNew", null, FormMethod.Get))
+{
+    <form class="form-control" action="~/Staging/Index/AddNew">
+        <input type="submit" value="Add new item" class="btn btn-outline-dark"/>
+    </form>
+}
