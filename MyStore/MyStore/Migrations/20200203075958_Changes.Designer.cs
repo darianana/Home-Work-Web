@@ -5,13 +5,13 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using TicketsStore.Models;
+using MyStore.Models;
 
-namespace TicketsStore.Migrations
+namespace MyStore.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20200131050523_AddPrice")]
-    partial class AddPrice
+    [Migration("20200203075958_Changes")]
+    partial class Changes
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,7 +21,7 @@ namespace TicketsStore.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("TicketsStore.Models.Bucket", b =>
+            modelBuilder.Entity("MyStore.Models.Bucket", b =>
                 {
                     b.Property<int>("StagingId")
                         .HasColumnType("int");
@@ -39,7 +39,44 @@ namespace TicketsStore.Migrations
                     b.ToTable("Buckets");
                 });
 
-            modelBuilder.Entity("TicketsStore.Models.Staging", b =>
+            modelBuilder.Entity("MyStore.Models.Role", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Roles");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "admin"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "moderator"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "consultant"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "customer"
+                        });
+                });
+
+            modelBuilder.Entity("MyStore.Models.Staging", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -52,8 +89,8 @@ namespace TicketsStore.Migrations
                     b.Property<int>("Price")
                         .HasColumnType("int");
 
-                    b.Property<DateTime>("StartTime")
-                        .HasColumnType("datetime2");
+                    b.Property<string>("StartTime")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("TheaterId")
                         .HasColumnType("int");
@@ -65,7 +102,7 @@ namespace TicketsStore.Migrations
                     b.ToTable("Stagings");
                 });
 
-            modelBuilder.Entity("TicketsStore.Models.Theater", b =>
+            modelBuilder.Entity("MyStore.Models.Theater", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -86,7 +123,7 @@ namespace TicketsStore.Migrations
                     b.ToTable("Theaters");
                 });
 
-            modelBuilder.Entity("TicketsStore.Models.User", b =>
+            modelBuilder.Entity("MyStore.Models.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
@@ -99,39 +136,68 @@ namespace TicketsStore.Migrations
                     b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Salt")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("UserType")
+                    b.Property<int?>("RoleId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("RoleId");
+
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "admin",
+                            Password = "adminadmin",
+                            RoleId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "moderator",
+                            Password = "moderator1",
+                            RoleId = 2
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "consultant",
+                            Password = "consultant1",
+                            RoleId = 3
+                        });
                 });
 
-            modelBuilder.Entity("TicketsStore.Models.Bucket", b =>
+            modelBuilder.Entity("MyStore.Models.Bucket", b =>
                 {
-                    b.HasOne("TicketsStore.Models.Staging", null)
+                    b.HasOne("MyStore.Models.Staging", null)
                         .WithMany("BucketEntries")
                         .HasForeignKey("StagingId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("TicketsStore.Models.User", null)
+                    b.HasOne("MyStore.Models.User", null)
                         .WithMany("Buckets")
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
                 });
 
-            modelBuilder.Entity("TicketsStore.Models.Staging", b =>
+            modelBuilder.Entity("MyStore.Models.Staging", b =>
                 {
-                    b.HasOne("TicketsStore.Models.Theater", "Theater")
+                    b.HasOne("MyStore.Models.Theater", "Theater")
                         .WithMany("Stagings")
                         .HasForeignKey("TheaterId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("MyStore.Models.User", b =>
+                {
+                    b.HasOne("MyStore.Models.Role", "Role")
+                        .WithMany("Users")
+                        .HasForeignKey("RoleId");
                 });
 #pragma warning restore 612, 618
         }

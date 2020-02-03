@@ -10,14 +10,13 @@
         <e p="appsettings.json" t="Include" />
         <e p="bin" t="ExcludeRecursive" />
         <e p="Controllers" t="Include">
+          <e p="AccountController.cs" t="Include" />
           <e p="HomeController.cs" t="Include" />
           <e p="StagingController.cs" t="Include" />
         </e>
         <e p="Migrations" t="Include">
-          <e p="20200130054836_AddDataBase.cs" t="Include" />
-          <e p="20200130054836_AddDataBase.Designer.cs" t="Include" />
-          <e p="20200131050523_AddPrice.cs" t="Include" />
-          <e p="20200131050523_AddPrice.Designer.cs" t="Include" />
+          <e p="20200203085638_NewDB.cs" t="Include" />
+          <e p="20200203085638_NewDB.Designer.cs" t="Include" />
           <e p="DataContextModelSnapshot.cs" t="Include" />
         </e>
         <e p="Models" t="Include">
@@ -26,7 +25,10 @@
           <e p="ErrorViewModel.cs" t="Include" />
           <e p="FilterViewModel.cs" t="Include" />
           <e p="IndexViewModel.cs" t="Include" />
+          <e p="LoginModel.cs" t="Include" />
           <e p="PageViewModel.cs" t="Include" />
+          <e p="RegisterModel.cs" t="Include" />
+          <e p="Role.cs" t="Include" />
           <e p="SortState.cs" t="Include" />
           <e p="SortViewModel.cs" t="Include" />
           <e p="Staging.cs" t="Include" />
@@ -41,9 +43,6 @@
             </e>
           </e>
         </e>
-        <e p="Pages" t="Include">
-          <e p="Staging" t="Include" />
-        </e>
         <e p="Program.cs" t="Include" />
         <e p="Properties" t="Include">
           <e p="launchSettings.json" t="Include" />
@@ -53,9 +52,13 @@
         <e p="Views" t="Include">
           <e p="_ViewImports.cshtml" t="Include" />
           <e p="_ViewStart.cshtml" t="Include" />
+          <e p="Account" t="Include">
+            <e p="Login.cshtml" t="Include" />
+            <e p="Login.cshtml.cs" t="Include" />
+            <e p="Register.cshtml" t="Include" />
+            <e p="Register.cshtml.cs" t="Include" />
+          </e>
           <e p="Home" t="Include">
-            <e p="AddNew.cshtml" t="Include" />
-            <e p="AddNew.cshtml.cs" t="Include" />
             <e p="Index.cshtml" t="Include" />
             <e p="Privacy.cshtml" t="Include" />
           </e>
@@ -67,10 +70,12 @@
           <e p="Staging" t="Include">
             <e p="AddNew.cshtml" t="Include" />
             <e p="AddNew.cshtml.cs" t="Include" />
-            <e p="Index.cshtml" t="Include" />
-            <e p="Index.cshtml.cs" t="Include" />
-            <e p="test.cshtml" t="Include" />
-            <e p="test.cshtml.cs" t="Include" />
+            <e p="DeleteStaging.cshtml" t="Include" />
+            <e p="DeleteStaging.cshtml.cs" t="Include" />
+            <e p="EditStaging.cshtml" t="Include" />
+            <e p="EditStaging.cshtml.cs" t="Include" />
+            <e p="SimpleView.cshtml" t="Include" />
+            <e p="SimpleView.cshtml.cs" t="Include" />
           </e>
         </e>
         <e p="wwwroot" t="Include">

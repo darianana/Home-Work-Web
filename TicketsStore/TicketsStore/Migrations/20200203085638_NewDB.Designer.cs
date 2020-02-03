@@ -10,8 +10,8 @@ using TicketsStore.Models;
 namespace TicketsStore.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20200130054836_AddDataBase")]
-    partial class AddDataBase
+    [Migration("20200203085638_NewDB")]
+    partial class NewDB
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -39,6 +39,43 @@ namespace TicketsStore.Migrations
                     b.ToTable("Buckets");
                 });
 
+            modelBuilder.Entity("TicketsStore.Models.Role", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int")
+                        .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
+
+                    b.Property<string>("Name")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Roles");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "admin"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "moderator"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "consultant"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "customer"
+                        });
+                });
+
             modelBuilder.Entity("TicketsStore.Models.Staging", b =>
                 {
                     b.Property<int>("Id")
@@ -49,8 +86,11 @@ namespace TicketsStore.Migrations
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<DateTime>("StartTime")
-                        .HasColumnType("datetime2");
+                    b.Property<int>("Price")
+                        .HasColumnType("int");
+
+                    b.Property<string>("StartTime")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<int>("TheaterId")
                         .HasColumnType("int");
@@ -59,7 +99,7 @@ namespace TicketsStore.Migrations
 
                     b.HasIndex("TheaterId");
 
-                    b.ToTable("Movies");
+                    b.ToTable("Stagings");
                 });
 
             modelBuilder.Entity("TicketsStore.Models.Theater", b =>
@@ -96,15 +136,37 @@ namespace TicketsStore.Migrations
                     b.Property<string>("Password")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Salt")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<int>("UserType")
+                    b.Property<int?>("RoleId")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("RoleId");
+
                     b.ToTable("Users");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "admin",
+                            Password = "adminadmin",
+                            RoleId = 1
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "moderator",
+                            Password = "moderator1",
+                            RoleId = 2
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "consultant",
+                            Password = "consultant1",
+                            RoleId = 3
+                        });
                 });
 
             modelBuilder.Entity("TicketsStore.Models.Bucket", b =>
@@ -129,6 +191,13 @@ namespace TicketsStore.Migrations
                         .HasForeignKey("TheaterId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
+                });
+
+            modelBuilder.Entity("TicketsStore.Models.User", b =>
+                {
+                    b.HasOne("TicketsStore.Models.Role", "Role")
+                        .WithMany("Users")
+                        .HasForeignKey("RoleId");
                 });
 #pragma warning restore 612, 618
         }

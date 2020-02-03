@@ -14,7 +14,7 @@
         "outputPath": "C:\\Users\\karpe\\Desktop\\web\\Home-Work-Web\\MyStore\\MyStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet",
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [

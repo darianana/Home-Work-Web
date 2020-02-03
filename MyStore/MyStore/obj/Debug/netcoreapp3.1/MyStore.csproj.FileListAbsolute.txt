@@ -68,3 +68,5 @@ C:\Users\karpe\Desktop\web\Home-Work-Web\MyStore\MyStore\obj\Debug\netcoreapp3.1
 C:\Users\karpe\Desktop\web\Home-Work-Web\MyStore\MyStore\obj\Debug\netcoreapp3.1\MyStore.Views.pdb
 C:\Users\karpe\Desktop\web\Home-Work-Web\MyStore\MyStore\obj\Debug\netcoreapp3.1\MyStore.dll
 C:\Users\karpe\Desktop\web\Home-Work-Web\MyStore\MyStore\obj\Debug\netcoreapp3.1\MyStore.pdb
+C:\Users\karpe\Desktop\web\Home-Work-Web\MyStore\MyStore\obj\Debug\netcoreapp3.1\Razor\Views\Staging\SimpleView.cshtml.g.cs
+C:\Users\karpe\Desktop\web\Home-Work-Web\MyStore\MyStore\obj\Debug\netcoreapp3.1\Razor\Views\Staging\AddNew.cshtml.g.cs

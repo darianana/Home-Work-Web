@@ -66,7 +66,12 @@
             <e p="_ValidationScriptsPartial.cshtml" t="Include" />
             <e p="Error.cshtml" t="Include" />
           </e>
-          <e p="Staging" t="Include" />
+          <e p="Staging" t="Include">
+            <e p="AddNew.cshtml" t="Include" />
+            <e p="AddNew.cshtml.cs" t="Include" />
+            <e p="SimpleView.cshtml" t="Include" />
+            <e p="SimpleView.cshtml.cs" t="Include" />
+          </e>
         </e>
         <e p="wwwroot" t="Include">
           <e p="css" t="Include">

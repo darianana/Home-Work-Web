@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace TicketsStore.Views.Staging
+namespace MyStore.Views.Staging
 {
     public class AddNew : PageModel
     {

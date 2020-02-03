@@ -2,7 +2,7 @@
 
 namespace TicketsStore.Views.Staging
 {
-    public class Index : PageModel
+    public class DeleteStaging : PageModel
     {
         public void OnGet()
         {

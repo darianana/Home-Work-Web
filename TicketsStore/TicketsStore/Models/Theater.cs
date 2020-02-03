@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-
 namespace TicketsStore.Models
 {
     public class Theater
@@ -15,6 +14,6 @@ namespace TicketsStore.Models
         public Theater()
         {
             Stagings = new List<Staging>();
-        }
+        }  
     }
 }

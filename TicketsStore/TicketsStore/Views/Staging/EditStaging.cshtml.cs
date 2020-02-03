@@ -2,7 +2,7 @@
 
 namespace TicketsStore.Views.Staging
 {
-    public class test : PageModel
+    public class EditStaging : PageModel
     {
         public void OnGet()
         {

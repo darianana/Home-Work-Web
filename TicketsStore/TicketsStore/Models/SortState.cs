@@ -11,6 +11,8 @@ namespace TicketsStore.Models
         NameDesc,
         PriceAsc,
         PriceDesc,
+        StartTimeAsc,
+        StartTimeDesc,
         TheaterAsc,
         TheaterDesc
     }

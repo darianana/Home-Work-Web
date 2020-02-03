@@ -1,8 +1,8 @@
 ﻿using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace TicketsStore.Views.Home
+namespace MyStore.Views.Staging
 {
-    public class AddNew : PageModel
+    public class SimpleView : PageModel
     {
         public void OnGet()
         {

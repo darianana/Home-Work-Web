@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketsStore", "TicketsStore\TicketsStore.csproj", "{4C3D51F7-EDE3-44E3-B271-3A2975D3DD0A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketsStore", "TicketsStore\TicketsStore.csproj", "{196289C5-56B2-4A56-A4E4-A8AB95EDFCED}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -8,9 +8,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4C3D51F7-EDE3-44E3-B271-3A2975D3DD0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4C3D51F7-EDE3-44E3-B271-3A2975D3DD0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4C3D51F7-EDE3-44E3-B271-3A2975D3DD0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4C3D51F7-EDE3-44E3-B271-3A2975D3DD0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{196289C5-56B2-4A56-A4E4-A8AB95EDFCED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{196289C5-56B2-4A56-A4E4-A8AB95EDFCED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{196289C5-56B2-4A56-A4E4-A8AB95EDFCED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{196289C5-56B2-4A56-A4E4-A8AB95EDFCED}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

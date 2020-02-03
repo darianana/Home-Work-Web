@@ -1,17 +1,17 @@
 ﻿using System.Collections.Generic;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using MyStore.Models;
+using TicketsStore.Models;
 using Microsoft.EntityFrameworkCore;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 
-namespace MyStore.Controllers
+namespace TicketsStore.Controllers
 {
     public class AccountController: Controller
     {
-         private DataContext _context;
+        private DataContext _context;
         public AccountController(DataContext context)
         {
             _context = context;
@@ -41,7 +41,7 @@ namespace MyStore.Controllers
  
                     await Authenticate(user); // аутентификация
  
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("SimpleView", "Staging");
                 }
                 else
                     ModelState.AddModelError("", "Некорректные логин и(или) пароль");
@@ -66,7 +66,7 @@ namespace MyStore.Controllers
                 {
                     await Authenticate(user); // аутентификация
  
-                    return RedirectToAction("Index", "Home");
+                    return RedirectToAction("SimpleView", "Staging");
                 }
                 ModelState.AddModelError("", "Некорректные логин и(или) пароль");
             }

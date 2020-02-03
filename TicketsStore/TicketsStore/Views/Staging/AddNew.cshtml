@@ -1,4 +1,5 @@
-﻿<form method="post" class="form-horizontal" role="form">
+﻿
+<form method="post" class="form-horizontal" role="form">
     <p>To add new item fill all fields</p>
     <div class="form-group">
         <label for="Name" class="col-md-2 control-label">Name stagings:</label>
@@ -15,7 +16,7 @@
     <div class="form-group">
         <label for="Theater" class="col-md-2 control-label">Theater:</label>
         <div class="col-md-4">
-            <input type="text" name="Theater" class="form-control" />
+            <input type="text" name="TheaterName" class="form-control" />
         </div>
     </div>
         <div class="form-group">
@@ -29,7 +30,7 @@
         <div class="col-md-offset-2 col-md-10">
             @using (Html.BeginForm("AddNew", null, FormMethod.Post))
             {
-                <form action="~/Staging/Index">
+                <form action="~/Staging/SimpleView">
                     <input type="submit" value="Add" class="btn btn-outline-dark"/>
                 </form>
             }
